@@ -1,0 +1,11 @@
+
+{
+    "knime.var.UMBRAL": {
+        "type": "number",
+        "default": 0.9
+    },
+    "knime.var.Repeticiones": {
+        "type": "integer",
+        "default": 3
+    }
+}
