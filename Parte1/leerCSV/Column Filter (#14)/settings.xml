@@ -9,22 +9,22 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="5"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="Date"/>
                 <entry key="1" type="xstring" value="Vax_Full"/>
                 <entry key="2" type="xstring" value="Vax_Partial"/>
-                <entry key="3" type="xstring" value="IncomeGroup"/>
-                <entry key="4" type="xstring" value="TableName"/>
+                <entry key="3" type="xstring" value="TableName"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="7"/>
+                <entry key="array-size" type="xint" value="8"/>
                 <entry key="0" type="xstring" value="ID"/>
                 <entry key="1" type="xstring" value="Vaccine"/>
                 <entry key="2" type="xstring" value="DoseType"/>
                 <entry key="3" type="xstring" value="DoseValue"/>
                 <entry key="4" type="xstring" value="iso2"/>
                 <entry key="5" type="xstring" value="Region"/>
-                <entry key="6" type="xstring" value="SpecialNotes"/>
+                <entry key="6" type="xstring" value="IncomeGroup"/>
+                <entry key="7" type="xstring" value="SpecialNotes"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -66,12 +66,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 2977436, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 67238, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="78c34ff7-9e08-4651-815b-052d30f14943"/>
+        <entry key="file_store_id" type="xstring" value="cc257b62-02b7-4ca6-b3c0-bc4da566df29"/>
     </config>
 </config>
