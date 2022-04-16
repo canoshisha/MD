@@ -9,7 +9,7 @@
         <config key="all_columns">
             <config key="0">
                 <entry key="old_column_name" type="xstring" value="Row0"/>
-                <entry key="new_column_name" type="xstring" value="EU-27"/>
+                <entry key="new_column_name" type="xstring" value="Full vacunados"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
@@ -41,6 +41,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c5d1552c-875b-4497-bc19-a7294cc3c67c"/>
+        <entry key="file_store_id" type="xstring" value="2447edc8-5df8-46c9-a80a-5adc3d7f2d4d"/>
     </config>
 </config>

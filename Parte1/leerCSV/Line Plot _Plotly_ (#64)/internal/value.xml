@@ -13,7 +13,7 @@
         <entry key="class_2" type="xstring" value="[Ljava.lang.String;"/>
         <config key="value_2">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="EU-27"/>
+            <entry key="0" type="xstring" value="Full vacunados"/>
         </config>
         <entry key="key_3" type="xstring" value="showLegend"/>
         <entry key="class_3" type="xstring" value="java.lang.Boolean"/>

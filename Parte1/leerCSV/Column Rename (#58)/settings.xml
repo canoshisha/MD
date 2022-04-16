@@ -8,8 +8,8 @@
     <config key="model">
         <config key="all_columns">
             <config key="0">
-                <entry key="old_column_name" type="xstring" value="Row0"/>
-                <entry key="new_column_name" type="xstring" value="EU-27"/>
+                <entry key="old_column_name" type="xstring" value="Date&amp;Time"/>
+                <entry key="new_column_name" type="xstring" value="fecha"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
@@ -35,12 +35,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 805, Cols: 1"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1000, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="985b8f88-5681-499c-bbd8-7168d8b860f8"/>
+        <entry key="file_store_id" type="xstring" value="830ac57c-46d0-4957-8e11-999d258908a4"/>
     </config>
 </config>
