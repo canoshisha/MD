@@ -5,7 +5,7 @@
         <entry key="mapClass" type="xstring" value="object"/>
         <entry key="key_0" type="xstring" value="yAxisLabel"/>
         <entry key="class_0" type="xstring" value="java.lang.String"/>
-        <entry key="value_0" type="xstring" value=""/>
+        <entry key="value_0" type="xstring" value="DETAILS"/>
         <entry key="key_1" type="xstring" value="subscribeToFilters"/>
         <entry key="class_1" type="xstring" value="java.lang.Boolean"/>
         <entry key="value_1" type="xboolean" value="true"/>
@@ -20,7 +20,7 @@
         <entry key="value_3" type="xboolean" value="false"/>
         <entry key="key_4" type="xstring" value="xAxisLabel"/>
         <entry key="class_4" type="xstring" value="java.lang.String"/>
-        <entry key="value_4" type="xstring" value=""/>
+        <entry key="value_4" type="xstring" value="DATE"/>
         <entry key="key_5" type="xstring" value="showFullscreen"/>
         <entry key="class_5" type="xstring" value="java.lang.Boolean"/>
         <entry key="value_5" type="xboolean" value="true"/>

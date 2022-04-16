@@ -71,12 +71,12 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="xAxisLabel" type="xstring" value=""/>
+        <entry key="xAxisLabel" type="xstring" value="DATE"/>
         <config key="yAxisLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="yAxisLabel" type="xstring" value=""/>
+        <entry key="yAxisLabel" type="xstring" value="DETAILS"/>
         <config key="svg_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -270,6 +270,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c6e1b634-b9e6-4d83-b34e-a4c08ef86717"/>
+        <entry key="file_store_id" type="xstring" value="88e0cb29-f2d4-4aa5-a228-bbe8e2ce433f"/>
     </config>
 </config>
