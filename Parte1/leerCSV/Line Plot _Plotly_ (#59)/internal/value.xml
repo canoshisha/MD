@@ -14,7 +14,7 @@
         </config>
         <entry key="key_2" type="xstring" value="showLegend"/>
         <entry key="class_2" type="xstring" value="java.lang.Boolean"/>
-        <entry key="value_2" type="xboolean" value="false"/>
+        <entry key="value_2" type="xboolean" value="true"/>
         <entry key="key_3" type="xstring" value="showFullscreen"/>
         <entry key="class_3" type="xstring" value="java.lang.Boolean"/>
         <entry key="value_3" type="xboolean" value="true"/>

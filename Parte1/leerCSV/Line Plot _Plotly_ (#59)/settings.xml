@@ -91,7 +91,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="showLegend" type="xboolean" value="false"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
         <config key="showGrid_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -270,6 +270,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="68aecab3-c855-43ba-abc0-58c18d073549"/>
+        <entry key="file_store_id" type="xstring" value="c0ed1e30-4670-4b05-81b9-5f52f74f539a"/>
     </config>
 </config>
