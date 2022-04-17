@@ -6,6 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="muertos"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
         <entry key="min_color" type="xint" value="-1893860"/>
@@ -47,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="583ffb02-7dcc-42c6-9a88-0723e0a49001"/>
+        <entry key="file_store_id" type="xstring" value="61cff354-1e54-413e-9c5c-7b2ecfdc512d"/>
     </config>
 </config>
