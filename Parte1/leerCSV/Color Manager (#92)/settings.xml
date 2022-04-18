@@ -6,11 +6,10 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="confirmados"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
         <entry key="min_color" type="xint" value="-14714700"/>
-        <entry key="max_color" type="xint" value="-12566464"/>
+        <entry key="max_color" type="xint" value="-14714700"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -48,6 +47,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="14609b3c-0204-4e3f-a156-aa8255c094a9"/>
+        <entry key="file_store_id" type="xstring" value="e3a73493-15da-4ea3-a0c5-b1d80aa972c3"/>
     </config>
 </config>

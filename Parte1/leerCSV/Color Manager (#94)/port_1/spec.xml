@@ -17,7 +17,7 @@
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
-                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADBvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRlLkxvY2FsRGF0ZUNlbGyMRXN6y/zSRAIAAUwAC21fbG9jYWxEYXRldAAVTGphdmEvdGltZS9Mb2NhbERhdGU7eHIAHG9yZy5rbmltZS5jb3JlLmRhdGEuRGF0YUNlbGxm6eiJVomygAIAAHhwc3IADWphdmEudGltZS5TZXKVXYS6GyJIsgwAAHhwdwcDAAAH5gQFeA=="/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADBvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRlLkxvY2FsRGF0ZUNlbGyMRXN6y/zSRAIAAUwAC21fbG9jYWxEYXRldAAVTGphdmEvdGltZS9Mb2NhbERhdGU7eHIAHG9yZy5rbmltZS5jb3JlLmRhdGEuRGF0YUNlbGxm6eiJVomygAIAAHhwc3IADWphdmEudGltZS5TZXKVXYS6GyJIsgwAAHhwdwcDAAAH5gQDeA=="/>
             </config>
         </config>
         <config key="column_properties"/>
@@ -35,13 +35,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="11.000000000000002"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="3.12664535E8"/>
+                    <entry key="DoubleCell" type="xdouble" value="3.20077025E8"/>
                 </config>
             </config>
         </config>
@@ -49,8 +49,8 @@
         <config key="color_handler">
             <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelRange"/>
             <config key="color_model">
-                <entry key="lower_value" type="xdouble" value="11.000000000000002"/>
-                <entry key="upper_value" type="xdouble" value="3.12664535E8"/>
+                <entry key="lower_value" type="xdouble" value="0.0"/>
+                <entry key="upper_value" type="xdouble" value="3.20077025E8"/>
                 <config key="lower_color">
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="51"/>
@@ -60,9 +60,9 @@
                 </config>
                 <config key="upper_color">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="64"/>
-                    <entry key="1" type="xint" value="64"/>
-                    <entry key="2" type="xint" value="64"/>
+                    <entry key="0" type="xint" value="51"/>
+                    <entry key="1" type="xint" value="160"/>
+                    <entry key="2" type="xint" value="44"/>
                     <entry key="3" type="xint" value="255"/>
                 </config>
             </config>

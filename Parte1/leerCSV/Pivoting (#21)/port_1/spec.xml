@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="464"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="TableName"/>
+        <entry key="column_name" type="xstring" value="Country_Region"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -12,7 +12,7 @@
         </config>
         <config key="column_domain">
             <config key="possible_values">
-                <entry key="array-size" type="xint" value="25"/>
+                <entry key="array-size" type="xint" value="27"/>
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
@@ -88,76 +88,88 @@
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ireland"/>
+                        <entry key="StringCell" type="xstring" value="Hungary"/>
                     </config>
                 </config>
                 <config key="13">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Italy"/>
+                        <entry key="StringCell" type="xstring" value="Ireland"/>
                     </config>
                 </config>
                 <config key="14">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Latvia"/>
+                        <entry key="StringCell" type="xstring" value="Italy"/>
                     </config>
                 </config>
                 <config key="15">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Lithuania"/>
+                        <entry key="StringCell" type="xstring" value="Latvia"/>
                     </config>
                 </config>
                 <config key="16">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Luxembourg"/>
+                        <entry key="StringCell" type="xstring" value="Lithuania"/>
                     </config>
                 </config>
                 <config key="17">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Malta"/>
+                        <entry key="StringCell" type="xstring" value="Luxembourg"/>
                     </config>
                 </config>
                 <config key="18">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Netherlands"/>
+                        <entry key="StringCell" type="xstring" value="Malta"/>
                     </config>
                 </config>
                 <config key="19">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Poland"/>
+                        <entry key="StringCell" type="xstring" value="Netherlands"/>
                     </config>
                 </config>
                 <config key="20">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Portugal"/>
+                        <entry key="StringCell" type="xstring" value="Poland"/>
                     </config>
                 </config>
                 <config key="21">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Slovak Republic"/>
+                        <entry key="StringCell" type="xstring" value="Portugal"/>
                     </config>
                 </config>
                 <config key="22">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Slovenia"/>
+                        <entry key="StringCell" type="xstring" value="Romania"/>
                     </config>
                 </config>
                 <config key="23">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Spain"/>
+                        <entry key="StringCell" type="xstring" value="Slovak Republic"/>
                     </config>
                 </config>
                 <config key="24">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Slovenia"/>
+                    </config>
+                </config>
+                <config key="25">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Spain"/>
+                    </config>
+                </config>
+                <config key="26">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
                         <entry key="StringCell" type="xstring" value="Sweden"/>
