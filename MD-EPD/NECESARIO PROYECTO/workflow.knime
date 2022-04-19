@@ -8,10 +8,14 @@
         <entry key="authored-by" type="xstring" value="sergi"/>
         <entry key="authored-when" type="xstring" value="2022-04-16 13:11:16 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="sergi"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-04-17 20:59:12 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-04-19 12:50:48 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Contains an unconnected node (&quot;Line Plot (Plotly) 3:11&quot;)"/>
+    </config>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">
@@ -98,6 +102,22 @@
                     <entry key="1" type="xint" value="337"/>
                     <entry key="2" type="xint" value="111"/>
                     <entry key="3" type="xint" value="78"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_42">
+            <entry key="id" type="xint" value="42"/>
+            <entry key="node_settings_file" type="xstring" value="paises_eu (#42)/workflow.knime"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="MetaNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="1844"/>
+                    <entry key="1" type="xint" value="577"/>
+                    <entry key="2" type="xint" value="64"/>
+                    <entry key="3" type="xint" value="65"/>
                 </config>
             </config>
         </config>
