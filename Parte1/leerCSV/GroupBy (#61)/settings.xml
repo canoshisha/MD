@@ -493,11 +493,21 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableHilite" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="sortInMemory_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="sortInMemory" type="xboolean" value="false"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
         <config key="aggregationColumn">
             <config key="columnNames">
                 <entry key="array-size" type="xint" value="463"/>
@@ -968,1855 +978,1855 @@
             <config key="columnTypes">
                 <entry key="array-size" type="xint" value="463"/>
                 <config key="0">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="1">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="2">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="3">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="4">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="5">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="6">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="7">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="8">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="9">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="10">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="11">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="12">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="13">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="14">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="15">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="16">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="17">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="18">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="19">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="20">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="21">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="22">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="23">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="24">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="25">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="26">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="27">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="28">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="29">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="30">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="31">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="32">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="33">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="34">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="35">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="36">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="37">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="38">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="39">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="40">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="41">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="42">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="43">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="44">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="45">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="46">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="47">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="48">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="49">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="50">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="51">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="52">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="53">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="54">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="55">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="56">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="57">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="58">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="59">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="60">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="61">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="62">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="63">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="64">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="65">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="66">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="67">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="68">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="69">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="70">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="71">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="72">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="73">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="74">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="75">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="76">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="77">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="78">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="79">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="80">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="81">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="82">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="83">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="84">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="85">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="86">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="87">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="88">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="89">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="90">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="91">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="92">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="93">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="94">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="95">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="96">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="97">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="98">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="99">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="100">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="101">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="102">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="103">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="104">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="105">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="106">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="107">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="108">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="109">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="110">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="111">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="112">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="113">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="114">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="115">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="116">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="117">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="118">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="119">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="120">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="121">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="122">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="123">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="124">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="125">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="126">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="127">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="128">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="129">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="130">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="131">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="132">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="133">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="134">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="135">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="136">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="137">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="138">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="139">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="140">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="141">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="142">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="143">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="144">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="145">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="146">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="147">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="148">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="149">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="150">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="151">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="152">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="153">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="154">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="155">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="156">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="157">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="158">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="159">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="160">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="161">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="162">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="163">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="164">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="165">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="166">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="167">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="168">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="169">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="170">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="171">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="172">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="173">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="174">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="175">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="176">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="177">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="178">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="179">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="180">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="181">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="182">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="183">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="184">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="185">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="186">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="187">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="188">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="189">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="190">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="191">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="192">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="193">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="194">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="195">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="196">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="197">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="198">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="199">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="200">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="201">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="202">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="203">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="204">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="205">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="206">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="207">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="208">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="209">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="210">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="211">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="212">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="213">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="214">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="215">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="216">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="217">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="218">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="219">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="220">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="221">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="222">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="223">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="224">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="225">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="226">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="227">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="228">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="229">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="230">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="231">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="232">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="233">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="234">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="235">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="236">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="237">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="238">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="239">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="240">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="241">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="242">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="243">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="244">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="245">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="246">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="247">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="248">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="249">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="250">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="251">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="252">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="253">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="254">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="255">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="256">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="257">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="258">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="259">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="260">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="261">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="262">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="263">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="264">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="265">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="266">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="267">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="268">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="269">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="270">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="271">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="272">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="273">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="274">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="275">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="276">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="277">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="278">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="279">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="280">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="281">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="282">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="283">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="284">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="285">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="286">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="287">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="288">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="289">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="290">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="291">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="292">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="293">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="294">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="295">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="296">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="297">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="298">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="299">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="300">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="301">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="302">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="303">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="304">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="305">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="306">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="307">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="308">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="309">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="310">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="311">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="312">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="313">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="314">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="315">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="316">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="317">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="318">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="319">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="320">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="321">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="322">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="323">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="324">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="325">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="326">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="327">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="328">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="329">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="330">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="331">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="332">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="333">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="334">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="335">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="336">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="337">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="338">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="339">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="340">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="341">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="342">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="343">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="344">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="345">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="346">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="347">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="348">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="349">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="350">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="351">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="352">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="353">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="354">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="355">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="356">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="357">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="358">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="359">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="360">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="361">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="362">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="363">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="364">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="365">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="366">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="367">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="368">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="369">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="370">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="371">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="372">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="373">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="374">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="375">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="376">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="377">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="378">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="379">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="380">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="381">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="382">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="383">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="384">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="385">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="386">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="387">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="388">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="389">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="390">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="391">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="392">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="393">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="394">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="395">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="396">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="397">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="398">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="399">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="400">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="401">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="402">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="403">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="404">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="405">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="406">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="407">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="408">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="409">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="410">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="411">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="412">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="413">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="414">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="415">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="416">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="417">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="418">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="419">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="420">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="421">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="422">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="423">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="424">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="425">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="426">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="427">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="428">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="429">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="430">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="431">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="432">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="433">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="434">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="435">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="436">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="437">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="438">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="439">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="440">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="441">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="442">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="443">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="444">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="445">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="446">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="447">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="448">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="449">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="450">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="451">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="452">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="453">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="454">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="455">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="456">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="457">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="458">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="459">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="460">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="461">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
                 <config key="462">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
             </config>
@@ -3756,11 +3766,6 @@
         <config key="aggregationOperatorSettings"/>
         <config key="patternAggregators"/>
         <config key="dataTypeAggregators"/>
-        <config key="columnNamePolicy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
         <config key="retainOrder_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -3771,11 +3776,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="inMemory" type="xboolean" value="false"/>
-        <config key="valueDelimiter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="nodeVersion_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -3810,6 +3810,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4ecb56aa-64f1-4e7f-bac6-3cd7f9e76f2e"/>
+        <entry key="file_store_id" type="xstring" value="5db50247-5ad6-4b06-bc1c-7ffd49ab1905"/>
     </config>
 </config>

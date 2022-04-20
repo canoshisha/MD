@@ -9,23 +9,17 @@
         <config key="columnSettings"/>
         <config key="dataTypeSettings">
             <config key="org.knime.core.data.def.StringCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedStringValueMissingCellHandlerFactory"/>
-                <config key="settings">
-                    <config key="fixStringValue_Internals">
-                        <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-                        <entry key="EnabledStatus" type="xboolean" value="true"/>
-                    </config>
-                    <entry key="fixStringValue" type="xstring" value="0"/>
-                </config>
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.DoNothingMissingCellHandlerFactory"/>
+                <config key="settings"/>
             </config>
-            <config key="org.knime.core.data.def.DoubleCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedDoubleValueMissingCellHandlerFactory"/>
+            <config key="org.knime.core.data.def.LongCell">
+                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedLongValueMissingCellHandlerFactory"/>
                 <config key="settings">
-                    <config key="fixDoubleValue_Internals">
-                        <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+                    <config key="fixLongValue_Internals">
+                        <entry key="SettingsModelID" type="xstring" value="SMN_long"/>
                         <entry key="EnabledStatus" type="xboolean" value="true"/>
                     </config>
-                    <entry key="fixDoubleValue" type="xdouble" value="0.0"/>
+                    <entry key="fixLongValue" type="xlong" value="0"/>
                 </config>
             </config>
         </config>
@@ -66,6 +60,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4b12058c-71ec-48cd-971a-b610b2bf7682"/>
+        <entry key="file_store_id" type="xstring" value="9b1ae575-41fd-4ed9-a183-5c8d1e2c0664"/>
     </config>
 </config>

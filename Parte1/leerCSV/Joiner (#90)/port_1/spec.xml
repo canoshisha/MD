@@ -29,19 +29,19 @@
             <entry key="array-size" type="xint" value="0"/>
         </config>
         <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
         </config>
         <config key="column_domain">
             <config key="lower_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="11.000000000000002"/>
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
+                <config key="org.knime.core.data.def.LongCell">
+                    <entry key="LongCell" type="xlong" value="198"/>
                 </config>
             </config>
             <config key="upper_bound">
-                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-                <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="3.20077025E8"/>
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
+                <config key="org.knime.core.data.def.LongCell">
+                    <entry key="LongCell" type="xlong" value="4022019794"/>
                 </config>
             </config>
         </config>

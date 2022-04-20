@@ -16,9 +16,10 @@
                 <entry key="0" type="xstring" value="Country_Region"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="Date"/>
                 <entry key="1" type="xstring" value="Vax_Full"/>
+                <entry key="2" type="xstring" value="new column0"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -32,26 +33,36 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableHilite" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="sortInMemory_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="sortInMemory" type="xboolean" value="false"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
         <config key="aggregationColumn">
             <config key="columnNames">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Vax_Full"/>
+                <entry key="0" type="xstring" value="new column0"/>
             </config>
             <config key="columnTypes">
                 <entry key="array-size" type="xint" value="1"/>
                 <config key="0">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
             </config>
             <config key="aggregationMethod">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Mean"/>
+                <entry key="0" type="xstring" value="Sum_V2.5.2"/>
             </config>
             <config key="inclMissingVals">
                 <entry key="array-size" type="xint" value="1"/>
@@ -61,11 +72,6 @@
         <config key="aggregationOperatorSettings"/>
         <config key="patternAggregators"/>
         <config key="dataTypeAggregators"/>
-        <config key="columnNamePolicy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
         <config key="retainOrder_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -76,11 +82,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="inMemory" type="xboolean" value="false"/>
-        <config key="valueDelimiter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="nodeVersion_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -97,9 +98,10 @@
                 <entry key="0" type="xstring" value="Date"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="Country_Region"/>
                 <entry key="1" type="xstring" value="Vax_Full"/>
+                <entry key="2" type="xstring" value="new column0"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -184,6 +186,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c17438a3-cc3c-4110-a176-e15d88b060b4"/>
+        <entry key="file_store_id" type="xstring" value="fdc64337-5008-4e22-b2ab-02aa9db0967f"/>
     </config>
 </config>

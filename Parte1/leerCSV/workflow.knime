@@ -8,10 +8,10 @@
         <entry key="authored-by" type="xstring" value="sergi"/>
         <entry key="authored-when" type="xstring" value="2022-04-06 11:55:49 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="sergi"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-04-19 12:54:38 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-04-20 18:40:03 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <config key="workflow_credentials"/>
     <config key="nodes">
         <config key="node_2">
@@ -62,6 +62,22 @@
                 </config>
             </config>
         </config>
+        <config key="node_8">
+            <entry key="id" type="xint" value="8"/>
+            <entry key="node_settings_file" type="xstring" value="Column Expressions (#8)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="544"/>
+                    <entry key="1" type="xint" value="737"/>
+                    <entry key="2" type="xint" value="128"/>
+                    <entry key="3" type="xint" value="78"/>
+                </config>
+            </config>
+        </config>
         <config key="node_13">
             <entry key="id" type="xint" value="13"/>
             <entry key="node_settings_file" type="xstring" value="Column Appender (#13)/settings.xml"/>
@@ -103,8 +119,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="603"/>
-                    <entry key="1" type="xint" value="756"/>
+                    <entry key="0" type="xint" value="684"/>
+                    <entry key="1" type="xint" value="737"/>
                     <entry key="2" type="xint" value="50"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
@@ -167,8 +183,8 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="865"/>
-                    <entry key="1" type="xint" value="758"/>
+                    <entry key="0" type="xint" value="844"/>
+                    <entry key="1" type="xint" value="757"/>
                     <entry key="2" type="xint" value="85"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
@@ -346,22 +362,6 @@
                     <entry key="0" type="xint" value="1925"/>
                     <entry key="1" type="xint" value="778"/>
                     <entry key="2" type="xint" value="92"/>
-                    <entry key="3" type="xint" value="78"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_71">
-            <entry key="id" type="xint" value="71"/>
-            <entry key="node_settings_file" type="xstring" value="Column Resorter (#71)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="744"/>
-                    <entry key="1" type="xint" value="758"/>
-                    <entry key="2" type="xint" value="105"/>
                     <entry key="3" type="xint" value="78"/>
                 </config>
             </config>
@@ -855,7 +855,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="484"/>
+                    <entry key="0" type="xint" value="444"/>
                     <entry key="1" type="xint" value="757"/>
                     <entry key="2" type="xint" value="85"/>
                     <entry key="3" type="xint" value="78"/>
@@ -903,7 +903,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="1784"/>
+                    <entry key="0" type="xint" value="1805"/>
                     <entry key="1" type="xint" value="557"/>
                     <entry key="2" type="xint" value="100"/>
                     <entry key="3" type="xint" value="78"/>
@@ -942,6 +942,22 @@
                 </config>
             </config>
         </config>
+        <config key="node_117">
+            <entry key="id" type="xint" value="117"/>
+            <entry key="node_settings_file" type="xstring" value="Sorter (#117)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="1744"/>
+                    <entry key="1" type="xint" value="857"/>
+                    <entry key="2" type="xint" value="50"/>
+                    <entry key="3" type="xint" value="78"/>
+                </config>
+            </config>
+        </config>
     </config>
     <config key="connections">
         <config key="connection_0">
@@ -975,6 +991,16 @@
             </config>
         </config>
         <config key="connection_3">
+            <entry key="sourceID" type="xint" value="8"/>
+            <entry key="destID" type="xint" value="21"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_4">
             <entry key="sourceID" type="xint" value="13"/>
             <entry key="destID" type="xint" value="84"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -984,7 +1010,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_4">
+        <config key="connection_5">
             <entry key="sourceID" type="xint" value="19"/>
             <entry key="destID" type="xint" value="43"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -994,9 +1020,9 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_5">
+        <config key="connection_6">
             <entry key="sourceID" type="xint" value="21"/>
-            <entry key="destID" type="xint" value="71"/>
+            <entry key="destID" type="xint" value="48"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1004,7 +1030,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_6">
+        <config key="connection_7">
             <entry key="sourceID" type="xint" value="31"/>
             <entry key="destID" type="xint" value="109"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1014,7 +1040,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_7">
+        <config key="connection_8">
             <entry key="sourceID" type="xint" value="43"/>
             <entry key="destID" type="xint" value="55"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1024,7 +1050,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_8">
+        <config key="connection_9">
             <entry key="sourceID" type="xint" value="44"/>
             <entry key="destID" type="xint" value="57"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1034,7 +1060,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_9">
+        <config key="connection_10">
             <entry key="sourceID" type="xint" value="48"/>
             <entry key="destID" type="xint" value="61"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1044,7 +1070,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_10">
+        <config key="connection_11">
             <entry key="sourceID" type="xint" value="53"/>
             <entry key="destID" type="xint" value="54"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1054,7 +1080,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_11">
+        <config key="connection_12">
             <entry key="sourceID" type="xint" value="54"/>
             <entry key="destID" type="xint" value="13"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1064,7 +1090,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_12">
+        <config key="connection_13">
             <entry key="sourceID" type="xint" value="55"/>
             <entry key="destID" type="xint" value="74"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1074,7 +1100,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_13">
+        <config key="connection_14">
             <entry key="sourceID" type="xint" value="56"/>
             <entry key="destID" type="xint" value="95"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1084,7 +1110,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_14">
+        <config key="connection_15">
             <entry key="sourceID" type="xint" value="57"/>
             <entry key="destID" type="xint" value="83"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1094,7 +1120,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_15">
+        <config key="connection_16">
             <entry key="sourceID" type="xint" value="58"/>
             <entry key="destID" type="xint" value="113"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1104,7 +1130,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_16">
+        <config key="connection_17">
             <entry key="sourceID" type="xint" value="60"/>
             <entry key="destID" type="xint" value="13"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1114,7 +1140,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_17">
+        <config key="connection_18">
             <entry key="sourceID" type="xint" value="61"/>
             <entry key="destID" type="xint" value="62"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1124,7 +1150,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_18">
+        <config key="connection_19">
             <entry key="sourceID" type="xint" value="62"/>
             <entry key="destID" type="xint" value="87"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1134,7 +1160,7 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_19">
+        <config key="connection_20">
             <entry key="sourceID" type="xint" value="64"/>
             <entry key="destID" type="xint" value="65"/>
             <entry key="sourcePort" type="xint" value="1"/>
@@ -1144,21 +1170,11 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
             </config>
         </config>
-        <config key="connection_20">
+        <config key="connection_21">
             <entry key="sourceID" type="xint" value="65"/>
             <entry key="destID" type="xint" value="13"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="3"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
-            <config key="ui_settings">
-                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
-            </config>
-        </config>
-        <config key="connection_21">
-            <entry key="sourceID" type="xint" value="71"/>
-            <entry key="destID" type="xint" value="48"/>
-            <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
             <config key="ui_settings">
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
@@ -1336,7 +1352,7 @@
         </config>
         <config key="connection_39">
             <entry key="sourceID" type="xint" value="94"/>
-            <entry key="destID" type="xint" value="64"/>
+            <entry key="destID" type="xint" value="117"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1466,7 +1482,7 @@
         </config>
         <config key="connection_52">
             <entry key="sourceID" type="xint" value="111"/>
-            <entry key="destID" type="xint" value="21"/>
+            <entry key="destID" type="xint" value="8"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1517,6 +1533,16 @@
         <config key="connection_57">
             <entry key="sourceID" type="xint" value="116"/>
             <entry key="destID" type="xint" value="114"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_58">
+            <entry key="sourceID" type="xint" value="117"/>
+            <entry key="destID" type="xint" value="64"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
