@@ -493,21 +493,11 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableHilite" type="xboolean" value="false"/>
-        <config key="valueDelimiter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="sortInMemory_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="sortInMemory" type="xboolean" value="false"/>
-        <config key="columnNamePolicy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
         <config key="aggregationColumn">
             <config key="columnNames">
                 <entry key="array-size" type="xint" value="463"/>
@@ -3766,6 +3756,11 @@
         <config key="aggregationOperatorSettings"/>
         <config key="patternAggregators"/>
         <config key="dataTypeAggregators"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
         <config key="retainOrder_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -3776,6 +3771,11 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="inMemory" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="nodeVersion_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -3810,6 +3810,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="64afa93a-763d-4a56-b35e-9cbeae62fbac"/>
+        <entry key="file_store_id" type="xstring" value="05b5e19d-ad6f-4314-88b2-97d0b2fbad6f"/>
     </config>
 </config>

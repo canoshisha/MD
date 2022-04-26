@@ -17,22 +17,6 @@
                     <config key="settings"/>
                 </config>
             </config>
-            <config key="1">
-                <config key="colNames">
-                    <entry key="array-size" type="xint" value="1"/>
-                    <entry key="0" type="xstring" value="Vax_Full"/>
-                </config>
-                <config key="settings">
-                    <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.handlers.FixedIntegerValueMissingCellHandlerFactory"/>
-                    <config key="settings">
-                        <config key="fixIntegerValue_Internals">
-                            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-                            <entry key="EnabledStatus" type="xboolean" value="true"/>
-                        </config>
-                        <entry key="fixIntegerValue" type="xint" value="0"/>
-                    </config>
-                </config>
-            </config>
         </config>
         <config key="dataTypeSettings">
             <config key="org.knime.core.data.def.IntCell">
@@ -49,7 +33,7 @@
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="nodecontainer_message">
         <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="The current settings use missing value handling methods that cannot be represented in PMML 4.2"/>
+        <entry key="message" type="xstring" value="The current settings use missing value handling methods that cannot be represented in PMML 4.2%%00010Column &quot;Vax_Full&quot; still contains missing values."/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Missing Value"/>
@@ -85,6 +69,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="caa759cc-593e-4be3-ad33-f5d7a642fe95"/>
+        <entry key="file_store_id" type="xstring" value="0476ca30-ff59-4496-ac1b-712d566d61d5"/>
     </config>
 </config>

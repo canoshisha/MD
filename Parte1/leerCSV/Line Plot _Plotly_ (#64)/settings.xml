@@ -223,7 +223,7 @@
         <entry key="customCSS" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Line Plot (Plotly)"/>
     <entry key="node-bundle-name" type="xstring" value="Plotly.js integration into KNIME"/>
@@ -238,28 +238,20 @@
         <entry key="nodeDir" type="xstring" value="org.knime.js.plotly:nodes/:linePlot"/>
     </config>
     <entry key="name" type="xstring" value="Line Plot (Plotly)"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="SVG 800 x 600"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1000, Cols: 3"/>
-            <entry key="port_dir_location" type="xstring" value="port_2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="94fd7d2c-29ed-40a0-8c5b-9ef205b95ae9"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
