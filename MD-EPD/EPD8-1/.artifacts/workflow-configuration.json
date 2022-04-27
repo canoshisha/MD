@@ -1,0 +1,36 @@
+
+{
+    "integer-input-3": {
+        "label": "Label",
+        "type": "integer",
+        "default": 0
+    },
+    "date-input-1": {
+        "label": "Label",
+        "type": "string",
+        "format": "ZonedDateTime",
+        "default": "2022-04-27T15:55:53+02:00[Europe/Paris]"
+    },
+    "boolean-input-4": {
+        "label": "Label",
+        "type": "boolean",
+        "default": false
+    },
+    "double-input-2": {
+        "label": "Label",
+        "type": "number",
+        "default": 0.0
+    },
+    "credentials-5": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": null
+        },
+        "password": {
+            "type": "string",
+            "default": null
+        }
+    }
+}

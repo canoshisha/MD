@@ -8,12 +8,12 @@
     <config key="model">
         <config key="all_columns">
             <config key="0">
-                <entry key="old_column_name" type="xstring" value="id"/>
-                <entry key="new_column_name" type="xstring" value="fecha"/>
+                <entry key="old_column_name" type="xstring" value="Date"/>
+                <entry key="new_column_name" type="xstring" value="Fecha"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
             <config key="1">
-                <entry key="old_column_name" type="xstring" value="Row0"/>
+                <entry key="old_column_name" type="xstring" value="Sum"/>
                 <entry key="new_column_name" type="xstring" value="vacunados"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
@@ -46,6 +46,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1369885c-a22f-46b6-bd7e-9b30c388f435"/>
+        <entry key="file_store_id" type="xstring" value="e203f97a-b074-4ad8-b7d5-3580d72ea689"/>
     </config>
 </config>

@@ -8,7 +8,7 @@
     <config key="model">
         <config key="incllist">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Date"/>
+            <entry key="0" type="xstring" value="Date&amp;Time"/>
         </config>
         <config key="sortOrder">
             <entry key="array-size" type="xint" value="1"/>
@@ -44,6 +44,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ac78ed83-7137-4f00-8ea1-7e9eaf248d9a"/>
+        <entry key="file_store_id" type="xstring" value="62d3f947-ab7a-4f5f-86bf-9db5aad82dcc"/>
     </config>
 </config>

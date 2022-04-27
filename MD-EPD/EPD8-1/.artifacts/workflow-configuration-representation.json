@@ -1,0 +1,95 @@
+
+{
+    "integer-input-3": {
+        "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 0
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 0
+        },
+        "usemin": false,
+        "usemax": false,
+        "min": 0,
+        "max": 100
+    },
+    "date-input-1": {
+        "@class": "org.knime.js.base.node.configuration.input.date.DateDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.date.DateDialogNodeValue",
+            "datestring": "2022-04-27T15:55:53+02:00[Europe/Paris]"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.date.DateDialogNodeValue",
+            "datestring": "2022-04-27T15:55:53+02:00[Europe/Paris]"
+        },
+        "shownowbutton": true,
+        "granularity": "show_minutes",
+        "usemin": false,
+        "usemax": false,
+        "useminexectime": false,
+        "usemaxexectime": false,
+        "usedefaultexectime": false,
+        "min": "2022-04-27T15:55:53+02:00[Europe/Paris]",
+        "max": "2022-04-27T15:55:53+02:00[Europe/Paris]",
+        "type": "LDT"
+    },
+    "boolean-input-4": {
+        "@class": "org.knime.js.base.node.configuration.input.bool.BooleanDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.bool.BooleanDialogNodeValue",
+            "boolean": false
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.bool.BooleanDialogNodeValue",
+            "boolean": false
+        }
+    },
+    "double-input-2": {
+        "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 0.0
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.dbl.DoubleDialogNodeValue",
+            "double": 0.0
+        },
+        "usemin": false,
+        "usemax": false,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "credentials-5": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false
+        },
+        "promptUsername": true,
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}

@@ -14,7 +14,7 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Date"/>
+                <entry key="0" type="xstring" value="Fecha"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -86,6 +86,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a372f932-cd4e-4dbe-8794-4a349dcd4ea2"/>
+        <entry key="file_store_id" type="xstring" value="e7f00772-f74c-49fd-a6ef-7a3683ca44d4"/>
     </config>
 </config>

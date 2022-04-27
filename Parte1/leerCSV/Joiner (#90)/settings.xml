@@ -35,7 +35,7 @@
         </config>
         <config key="rightTableJoinPredicate">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="fecha"/>
+            <entry key="0" type="xstring" value="Fecha"/>
         </config>
         <config key="compositionMode_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
@@ -127,8 +127,9 @@
                 <entry key="0" type="xstring" value="vacunados"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="fecha"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="Fecha"/>
+                <entry key="1" type="xstring" value="fecha"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -139,11 +140,11 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.time.localdate.LocalDateValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
                 </config>
@@ -195,6 +196,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="94777869-6477-4890-aca5-9586fc341e91"/>
+        <entry key="file_store_id" type="xstring" value="ec623eee-f69f-41ca-b964-a1cf90798066"/>
     </config>
 </config>

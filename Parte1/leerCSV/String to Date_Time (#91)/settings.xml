@@ -14,7 +14,7 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="fecha"/>
+                <entry key="0" type="xstring" value="Fecha"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -42,22 +42,22 @@
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="suffix" type="xstring" value="(Date&amp;Time)"/>
+        <entry key="typeEnum" type="xstring" value="LOCAL_DATE"/>
         <config key="date_format_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="date_format" type="xstring" value="yyyy-MM-dd"/>
-        <config key="cancel_on_fail_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="cancel_on_fail" type="xboolean" value="true"/>
-        <entry key="typeEnum" type="xstring" value="LOCAL_DATE"/>
         <config key="locale_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="locale" type="xstring" value="es-ES"/>
+        <config key="cancel_on_fail_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="cancel_on_fail" type="xboolean" value="true"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -86,6 +86,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d5910d59-88cf-44d8-94a6-2578b8720975"/>
+        <entry key="file_store_id" type="xstring" value="869006e8-b47f-43dd-aaf3-ce00e0a34ee6"/>
     </config>
 </config>

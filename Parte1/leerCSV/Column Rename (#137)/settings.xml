@@ -8,13 +8,13 @@
     <config key="model">
         <config key="all_columns">
             <config key="0">
-                <entry key="old_column_name" type="xstring" value="Date&amp;Time"/>
-                <entry key="new_column_name" type="xstring" value="Date"/>
+                <entry key="old_column_name" type="xstring" value="Sum"/>
+                <entry key="new_column_name" type="xstring" value="Vacunados EU-27"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
             <config key="1">
-                <entry key="old_column_name" type="xstring" value="Sum"/>
-                <entry key="new_column_name" type="xstring" value="Vacunados EU-27"/>
+                <entry key="old_column_name" type="xstring" value="Date"/>
+                <entry key="new_column_name" type="xstring" value="Fecha"/>
                 <entry key="new_column_type" type="xint" value="0"/>
             </config>
         </config>
@@ -40,12 +40,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1000, Cols: 2"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 463, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f2c29e59-b9c4-4e70-bb04-57a923256fdc"/>
+        <entry key="file_store_id" type="xstring" value="76848cd1-34e2-46ab-b35f-297e503bea96"/>
     </config>
 </config>

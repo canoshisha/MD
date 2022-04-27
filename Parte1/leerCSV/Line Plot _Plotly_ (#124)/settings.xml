@@ -22,7 +22,7 @@
         </config>
         <config key="xAxisColumn">
             <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="Date"/>
+            <entry key="columnName" type="xstring" value="Date&amp;Time"/>
         </config>
         <config key="columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
@@ -270,6 +270,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="87617324-e2fb-45c1-b050-314c44623217"/>
+        <entry key="file_store_id" type="xstring" value="ffbea73d-4d75-4b8c-bc58-5d3e283b6a00"/>
     </config>
 </config>

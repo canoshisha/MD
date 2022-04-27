@@ -24,7 +24,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Sum"/>
+        <entry key="column_name" type="xstring" value="Vacunados EU-27"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

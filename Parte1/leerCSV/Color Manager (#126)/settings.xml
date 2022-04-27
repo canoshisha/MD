@@ -6,6 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="custom_set"/>
         <entry key="selected_column" type="xstring" value="Vacunados EU-27"/>
         <entry key="is_nominal" type="xboolean" value="false"/>
         <entry key="min_color" type="xint" value="-13393876"/>
@@ -47,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c9661882-6a20-4175-a295-a6968d5edb1c"/>
+        <entry key="file_store_id" type="xstring" value="b2ca1d82-8af1-4b34-9060-d8b1539ec8a8"/>
     </config>
 </config>
