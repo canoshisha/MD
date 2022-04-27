@@ -1,0 +1,21 @@
+
+{
+    "integer-input-3": {
+        "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 10
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 10
+        },
+        "usemin": false,
+        "usemax": false,
+        "min": 0,
+        "max": 100
+    }
+}
