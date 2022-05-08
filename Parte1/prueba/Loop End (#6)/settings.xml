@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="addIterationColumn" type="xboolean" value="true"/>
+        <entry key="addIterationColumn" type="xboolean" value="false"/>
         <entry key="rowKeyPolicy" type="xstring" value="APPEND_SUFFIX"/>
         <entry key="propagateLoopVariables" type="xboolean" value="false"/>
         <config key="ignoreEmptyTables">
@@ -23,7 +23,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory"/>
     <entry key="node-name" type="xstring" value="Loop End"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -39,12 +39,15 @@
         <config key="Collector"/>
     </config>
     <entry key="name" type="xstring" value="Loop End"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 6782600, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
