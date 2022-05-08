@@ -1,0 +1,35 @@
+2019-01-10 10:00:11,005 : DEBUG : ModalContext : TableCreator2NodeFactory : _Template : 3 : Factory is already initialized. Nothing to do.
+2019-01-10 10:00:11,007 : DEBUG : ModalContext : Node : Table Creator : 3:153 : Configure succeeded. (Table Creator)
+2019-01-10 10:04:29,525 : DEBUG : main : ProjectWorkflowMap : _Template : 3 : Removing "file:/C:/Users/Johnny/knime-workspace/ForumSupport/January/CreatedWorkflows/_Template/" from project map (2 remaining)
+2019-01-10 10:04:29,526 : DEBUG : main : WorkflowManager : _Template : 3 : Removing project "_Template 3"
+2019-01-10 10:04:29,529 : DEBUG : main : TableCreator2NodeModel : Table Creator : 3:153 : Removing all (0) views from model.
+2019-01-10 10:04:29,529 : DEBUG : main : Node : Table Creator : 3:153 : clean output ports.
+2019-01-10 10:04:29,530 : DEBUG : main : WorkflowManager : _Template : 3 : Project "_Template 3" removed (3 remaining)
+2019-01-10 12:19:44,844 : DEBUG : ModalContext : TableCreator2NodeFactory : -2019_01_dd_Template : 0 : Factory is already initialized. Nothing to do.
+2019-01-10 12:19:44,847 : DEBUG : ModalContext : Node : Table Creator : 0:153 : Configure succeeded. (Table Creator)
+2019-01-10 12:20:10,111 : DEBUG : main : ProjectWorkflowMap : -2019_01_dd_Template : 0 : Removing "file:/C:/Users/Johnny/knime-workspace/ForumSupport/January/CreatedWorkflows/-2019_01_dd_Template/" from project map (1 remaining)
+2019-01-10 12:20:10,112 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Removing project "-2019_01_dd_Template 0"
+2019-01-10 12:20:10,115 : DEBUG : main : TableCreator2NodeModel : Table Creator : 0:153 : Removing all (0) views from model.
+2019-01-10 12:20:10,115 : DEBUG : main : Node : Table Creator : 0:153 : clean output ports.
+2019-01-10 12:20:10,116 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Project "-2019_01_dd_Template 0" removed (2 remaining)
+2019-01-10 12:20:22,038 : DEBUG : ModalContext : TableCreator2NodeFactory : -2019_01_dd_Template : 0 : Factory is already initialized. Nothing to do.
+2019-01-10 12:20:22,040 : DEBUG : ModalContext : Node : Table Creator : 0:153 : Configure succeeded. (Table Creator)
+2019-01-10 12:21:15,951 : DEBUG : main : ProjectWorkflowMap : -2019_01_dd_Template : 0 : Removing "file:/C:/Users/Johnny/knime-workspace/ForumSupport/January/CreatedWorkflows/-2019_01_dd_Template/" from project map (0 remaining)
+2019-01-10 12:21:15,952 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Removing project "-2019_01_dd_Template 0"
+2019-01-10 12:21:15,956 : DEBUG : main : TableCreator2NodeModel : Table Creator : 0:153 : Removing all (0) views from model.
+2019-01-10 12:21:15,956 : DEBUG : main : Node : Table Creator : 0:153 : clean output ports.
+2019-01-10 12:21:15,957 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Project "-2019_01_dd_Template 0" removed (1 remaining)
+2019-01-10 12:51:57,591 : DEBUG : ModalContext : TableCreator2NodeFactory : -2019_01_dd_Template : 2 : Factory is already initialized. Nothing to do.
+2019-01-10 12:51:57,592 : DEBUG : ModalContext : Node : Table Creator : 2:153 : Configure succeeded. (Table Creator)
+2019-01-10 12:52:49,461 : DEBUG : main : ProjectWorkflowMap : -2019_01_dd_Template : 2 : Removing "file:/C:/Users/Johnny/knime-workspace/ForumSupport/January/CreatedWorkflows/-2019_01_dd_Template/" from project map (1 remaining)
+2019-01-10 12:52:49,463 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 2 : Removing project "-2019_01_dd_Template 2"
+2019-01-10 12:52:49,467 : DEBUG : main : TableCreator2NodeModel : Table Creator : 2:153 : Removing all (0) views from model.
+2019-01-10 12:52:49,467 : DEBUG : main : Node : Table Creator : 2:153 : clean output ports.
+2019-01-10 12:52:49,467 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 2 : Project "-2019_01_dd_Template 2" removed (2 remaining)
+2019-01-10 12:54:07,270 : DEBUG : ModalContext : TableCreator2NodeFactory : -2019_01_dd_Template : 0 : Factory is already initialized. Nothing to do.
+2019-01-10 12:54:07,277 : DEBUG : ModalContext : Node : Table Creator : 0:153 : Configure succeeded. (Table Creator)
+2019-01-10 12:54:11,309 : DEBUG : main : ProjectWorkflowMap : -2019_01_dd_Template : 0 : Removing "file:/C:/Users/Johnny/knime-workspace/ForumSupport/January/CreatedWorkflows/-2019_01_dd_Template/" from project map (0 remaining)
+2019-01-10 12:54:11,310 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Removing project "-2019_01_dd_Template 0"
+2019-01-10 12:54:11,313 : DEBUG : main : TableCreator2NodeModel : Table Creator : 0:153 : Removing all (0) views from model.
+2019-01-10 12:54:11,313 : DEBUG : main : Node : Table Creator : 0:153 : clean output ports.
+2019-01-10 12:54:11,314 : DEBUG : main : WorkflowManager : -2019_01_dd_Template : 0 : Project "-2019_01_dd_Template 0" removed (1 remaining)

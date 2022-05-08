@@ -310,6 +310,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="ERROR"/>
+        <entry key="message" type="xstring" value="Execute failed: The specified file D:\GIISI\TERCERO\Segundo cuatrimestre\Mineria de datos\iris.csv does not exist."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
