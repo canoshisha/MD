@@ -16,10 +16,10 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="rownr_option_selection" type="xstring" value="Fixed"/>
+        <entry key="rownr_option_selection" type="xstring" value="Variable"/>
         <config key="nr_rows_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMN_long"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="nr_rows" type="xlong" value="463"/>
         <config key="start_Internals">
@@ -34,9 +34,9 @@
         <entry key="duration_or_end" type="xstring" value="End"/>
         <config key="duration_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="duration" type="xstring" value="n"/>
+        <entry key="duration" type="xstring" value="1d"/>
         <config key="end_Internals">
             <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -94,6 +94,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d10eedc3-34bf-429b-bc70-c60396ef6d6f"/>
+        <entry key="file_store_id" type="xstring" value="2fe7d99d-8b26-4178-b98d-fd10b82dbbe4"/>
     </config>
 </config>

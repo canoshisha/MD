@@ -41,7 +41,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="402201979400"/>
+                    <entry key="LongCell" type="xlong" value="320077025"/>
                 </config>
             </config>
         </config>
@@ -50,7 +50,7 @@
             <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelRange"/>
             <config key="color_model">
                 <entry key="lower_value" type="xdouble" value="0.0"/>
-                <entry key="upper_value" type="xdouble" value="4.022019794E11"/>
+                <entry key="upper_value" type="xdouble" value="3.20077025E8"/>
                 <config key="lower_color">
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="51"/>
