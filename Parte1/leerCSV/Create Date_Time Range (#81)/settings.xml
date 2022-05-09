@@ -6,6 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="type" type="xstring" value="LOCAL_DATE"/>
         <config key="column_name_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -15,10 +16,10 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="rownr_option_selection" type="xstring" value="Fixed"/>
+        <entry key="rownr_option_selection" type="xstring" value="Variable"/>
         <config key="nr_rows_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMN_long"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="nr_rows" type="xlong" value="1000"/>
         <config key="start_Internals">
@@ -33,9 +34,9 @@
         <entry key="duration_or_end" type="xstring" value="End"/>
         <config key="duration_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="duration" type="xstring" isnull="true" value=""/>
+        <entry key="duration" type="xstring" value="1d"/>
         <config key="end_Internals">
             <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -51,7 +52,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="end_use_exec_time" type="xboolean" value="false"/>
-        <entry key="type" type="xstring" value="LOCAL_DATE"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Establecer rango %%00013%%00010fecha"/>
@@ -68,7 +68,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.time.node.create.createdatetime.CreateDateTimeNodeFactory"/>
     <entry key="node-name" type="xstring" value="Create Date&amp;Time Range"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Date and Time Handling"/>
@@ -81,15 +81,12 @@
     <entry key="node-feature-version" type="xstring" value="4.5.2.v202203141441"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Create Date&amp;Time Range"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1000, Cols: 1"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
