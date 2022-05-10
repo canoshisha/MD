@@ -8,9 +8,9 @@
     <config key="model">
         <config key="flowVariableName_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="flowVariableName" type="xstring" value=""/>
+        <entry key="flowVariableName" type="xstring" value="RowID"/>
         <entry key="maxNrIterations" type="xint" value="100"/>
         <entry key="endLoop_deprecated" type="xboolean" value="false"/>
         <entry key="useFlowVariable" type="xboolean" value="false"/>
@@ -21,11 +21,20 @@
         </config>
         <config key="addIterationColumn">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xboolean" value="false"/>
+            <entry key="0" type="xboolean" value="true"/>
         </config>
         <config key="onlyLastData">
             <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xboolean" value="false"/>
+        </config>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="maxNrIterations">
+                <entry key="used_variable" type="xstring" value="count"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -53,7 +62,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1058300, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 761976, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
