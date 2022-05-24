@@ -6560,6 +6560,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="e77d0786-05fb-4e71-9eb9-23baf90b69fa"/>
     </config>
 </config>

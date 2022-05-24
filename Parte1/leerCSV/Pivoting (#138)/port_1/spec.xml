@@ -126,13 +126,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="198"/>
+                    <entry key="LongCell" type="xlong" value="11"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="1137318516"/>
+                    <entry key="LongCell" type="xlong" value="63184362"/>
                 </config>
             </config>
         </config>
@@ -157,7 +157,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="1052421700"/>
+                    <entry key="LongCell" type="xlong" value="47837350"/>
                 </config>
             </config>
         </config>
@@ -282,7 +282,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="175221636"/>
+                    <entry key="LongCell" type="xlong" value="7618332"/>
                 </config>
             </config>
         </config>
@@ -307,7 +307,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="118714843"/>
+                    <entry key="LongCell" type="xlong" value="9131911"/>
                 </config>
             </config>
         </config>
@@ -407,7 +407,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="402603768"/>
+                    <entry key="LongCell" type="xlong" value="22366876"/>
                 </config>
             </config>
         </config>
@@ -582,7 +582,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="845057661"/>
+                    <entry key="LongCell" type="xlong" value="40240841"/>
                 </config>
             </config>
         </config>
@@ -657,7 +657,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="179464670"/>
+                    <entry key="LongCell" type="xlong" value="12818905"/>
                 </config>
             </config>
         </config>

@@ -9,12 +9,12 @@
         <config key="expressions">
             <config key="element 0">
                 <entry key="expression" type="xstring" value="column(&quot;Vax_Full&quot;)"/>
-                <entry key="outputName" type="xstring" value="new column0"/>
+                <entry key="outputName" type="xstring" value="Vax_Full"/>
                 <config key="outputType">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
-                <entry key="replaceColumn" type="xboolean" value="false"/>
+                <entry key="replaceColumn" type="xboolean" value="true"/>
                 <entry key="isCollection" type="xboolean" value="false"/>
             </config>
         </config>
@@ -25,8 +25,8 @@
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="cast to long"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="447"/>
-        <entry key="y-coordinate" type="xint" value="1019"/>
+        <entry key="x-coordinate" type="xint" value="547"/>
+        <entry key="y-coordinate" type="xint" value="1359"/>
         <entry key="width" type="xint" value="106"/>
         <entry key="height" type="xint" value="15"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
@@ -57,12 +57,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 67703, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 67703, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3cd02beb-a74c-4cee-9185-8b0747aedd5a"/>
+        <entry key="file_store_id" type="xstring" value="aa1413e5-3a43-4510-8b75-63d561acdd7e"/>
     </config>
 </config>

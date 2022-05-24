@@ -15,7 +15,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Sum(new column0)"/>
+        <entry key="column_name" type="xstring" value="Max*(Vax_Full)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -26,13 +26,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="198"/>
+                    <entry key="LongCell" type="xlong" value="0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="4022019794"/>
+                    <entry key="LongCell" type="xlong" value="63184362"/>
                 </config>
             </config>
         </config>
