@@ -877,12 +877,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 43, Cols: 806"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 44, Cols: 806"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="be0ba805-3ddb-4f2c-8a44-4085f1c2e967"/>
+        <entry key="file_store_id" type="xstring" value="2abe31c5-3413-48f9-a611-308f88fdb6d0"/>
     </config>
 </config>
