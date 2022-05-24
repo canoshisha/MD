@@ -114,13 +114,10 @@
                 <path d="M662 23 L681 23 L681 34 L662 34 L662 23 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-                <path d="M-2 4 L17 4 L17 15 L-2 15 L-2 4 Z"/>
-            </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
                 <path d="M662 42 L681 42 L681 53 L662 53 L662 42 Z"/>
             </clipPath>
-            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
-                <path d="M-1 -1 L1282 -1 L1282 582 L-1 582 L-1 -1 Z"/>
+            <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
+                <path d="M-1 -1 L914 -1 L914 813 L-1 813 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0"
@@ -489,21 +486,7 @@ YII=" xlink:actuate="onLoad"/>
                      points=" 628 43 636 46 628 51"/>
             <polygon fill="rgb(65,190,120)" clip-path="url(#clipPath33)"
                      points=" 669 24 678 24 678 33 669 33" stroke="none"/>
-            <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   stroke="rgb(65,190,120)" transform="matrix(1,0,0,1,664,19)"
-                   width="18" xlink:show="embed" xlink:type="simple"
-                   fill="rgb(65,190,120)" clip-path="url(#clipPath34)"
-                   preserveAspectRatio="none" height="18" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABbElEQVR42mO8bWmz
-iYmVheXr+w8JepcvvGIgAVw1NJbk5ONb+fvnTwYmRmYmMS4BQU8+MdFVl3QNxEgx
-hEdYaCMnv4AtMwvLf+Z0YZGtzKzMduzcPFYsbKxmSTx826a/evGVGEPYuHhMf379
-cvDLu/dhzNNePP+Syi+4hVjD0A359Op1GChImEGSxBqGyxCQHDNMESHD8BkCAozE
-OJ2ZhZkZnyEoLsLlMiYmRmtWDo54Dh4+Y1yGYDUI2TCge52A0WvGys4h+f3jh2Of
-37wNwZXWmPBFM9BLf+AKWVh+41VLKIpBLvnz6+cbDl4+C3xJg5lQYIO88/f3r+WE
-kgYzMemEmHTGTExiIyadgQ0CZlZdPlGRVUBDTPBFMbphrGysFqkCgjtA4swgQwSl
-JBezcnIZ4jMEm2Fs3DyWIBrML9XU2gQ03ZgYQ7AaBgyKf3//WDHnyEj7//n16+6X
-t++iSSnYYIYBDbH+++fPXwCTQTrJ2eP7AQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
-            <polygon clip-path="url(#clipPath35)" points=" 669 43 678 47 669 52"
+            <polygon clip-path="url(#clipPath34)" points=" 669 43 678 47 669 52"
                      stroke="none"/>
             <text xml:space="preserve" x="33" y="190"
                   clip-path="url(#clipPath1)" stroke="none">Node 1</text><text xml:space="preserve"
@@ -828,21 +811,7 @@ YII=" xlink:actuate="onLoad"/>
                      points=" 628 43 636 46 628 51"/>
             <polygon fill="rgb(65,190,120)" clip-path="url(#clipPath33)"
                      points=" 669 24 678 24 678 33 669 33" stroke="none"/>
-            <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   stroke="rgb(65,190,120)" transform="matrix(1,0,0,1,664,19)"
-                   width="18" xlink:show="embed" xlink:type="simple"
-                   fill="rgb(65,190,120)" clip-path="url(#clipPath34)"
-                   preserveAspectRatio="none" height="18" x="0" y="0"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABbElEQVR42mO8bWmz
-iYmVheXr+w8JepcvvGIgAVw1NJbk5ONb+fvnTwYmRmYmMS4BQU8+MdFVl3QNxEgx
-hEdYaCMnv4AtMwvLf+Z0YZGtzKzMduzcPFYsbKxmSTx826a/evGVGEPYuHhMf379
-cvDLu/dhzNNePP+Syi+4hVjD0A359Op1GChImEGSxBqGyxCQHDNMESHD8BkCAozE
-OJ2ZhZkZnyEoLsLlMiYmRmtWDo54Dh4+Y1yGYDUI2TCge52A0WvGys4h+f3jh2Of
-37wNwZXWmPBFM9BLf+AKWVh+41VLKIpBLvnz6+cbDl4+C3xJg5lQYIO88/f3r+WE
-kgYzMemEmHTGTExiIyadgQ0CZlZdPlGRVUBDTPBFMbphrGysFqkCgjtA4swgQwSl
-JBezcnIZ4jMEm2Fs3DyWIBrML9XU2gQ03ZgYQ7AaBgyKf3//WDHnyEj7//n16+6X
-t++iSSnYYIYBDbH+++fPXwCTQTrJ2eP7AQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
-            <polygon clip-path="url(#clipPath35)" points=" 669 43 678 47 669 52"
+            <polygon clip-path="url(#clipPath34)" points=" 669 43 678 47 669 52"
                      stroke="none"/>
         </g>
         <g stroke-linecap="butt" fill="rgb(150,150,150)"
@@ -851,22 +820,22 @@ t++iSSnYYIYBDbH+++fPXwCTQTrJ2eP7AQAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
            stroke-width="2">
             <path fill="none"
                   d="M358 138 C360 138 364 138 366 138 C399 138 386 38 419 38 C421 38 425 38 427 38"
-                  clip-path="url(#clipPath36)" fill-rule="evenodd"/>
-            <path clip-path="url(#clipPath36)" fill="none" fill-rule="evenodd"
+                  clip-path="url(#clipPath35)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M358 138 C360 138 364 138 366 138 C388 138 417 158 439 158 C441 158 445 158 447 158"
+                  clip-path="url(#clipPath35)" fill-rule="evenodd"/>
+            <path clip-path="url(#clipPath35)" fill="none" fill-rule="evenodd"
                   d="M478 38 C480 38 484 38 486 38 C526 38 579 28 619 28 C621 28 625 28 627 28"
                   stroke="rgb(75,75,75)" stroke-width="3"/>
             <path fill="none"
-                  d="M78 138 C80 138 84 138 86 138 C111 138 147 138 172 138 C174 138 178 138 180 138"
-                  clip-path="url(#clipPath36)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M231 138 C233 138 237 138 239 138 C257 138 281 138 299 138 C301 138 305 138 307 138"
-                  clip-path="url(#clipPath36)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M358 138 C360 138 364 138 366 138 C388 138 417 158 439 158 C441 158 445 158 447 158"
-                  clip-path="url(#clipPath36)" fill-rule="evenodd"/>
+                  clip-path="url(#clipPath35)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M358 138 C360 138 364 138 366 138 C413 138 392 278 439 278 C441 278 445 278 447 278"
-                  clip-path="url(#clipPath36)" fill-rule="evenodd"/>
+                  clip-path="url(#clipPath35)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M78 138 C80 138 84 138 86 138 C111 138 147 138 172 138 C174 138 178 138 180 138"
+                  clip-path="url(#clipPath35)" fill-rule="evenodd"/>
         </g>
     </g>
 </svg>

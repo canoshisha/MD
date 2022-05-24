@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
-    <entry key="created_by" type="xstring" value="4.5.1.v202201200941"/>
+    <entry key="created_by" type="xstring" value="4.5.2.v202203091352"/>
     <entry key="created_by_nightly" type="xboolean" value="false"/>
     <entry key="version" type="xstring" value="4.1.0"/>
     <entry key="name" type="xstring" isnull="true" value=""/>
     <config key="authorInformation">
         <entry key="authored-by" type="xstring" value="matero"/>
         <entry key="authored-when" type="xstring" value="2022-05-11 16:38:08 +0200"/>
-        <entry key="lastEdited-by" type="xstring" value="matero"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-05-11 17:28:38 +0200"/>
+        <entry key="lastEdited-by" type="xstring" value="sergi"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-05-24 13:35:37 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -156,7 +156,7 @@
         </config>
         <config key="connection_3">
             <entry key="sourceID" type="xint" value="22"/>
-            <entry key="destID" type="xint" value="21"/>
+            <entry key="destID" type="xint" value="23"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -166,7 +166,7 @@
         </config>
         <config key="connection_4">
             <entry key="sourceID" type="xint" value="22"/>
-            <entry key="destID" type="xint" value="23"/>
+            <entry key="destID" type="xint" value="21"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>

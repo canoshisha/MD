@@ -10,7 +10,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="generateImagemodel" type="xboolean" value="false"/>
+        <entry key="generateImagemodel" type="xboolean" value="true"/>
         <config key="maxRowsmodel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -230,7 +230,7 @@
         <entry key="subscribeToFilters" type="xboolean" value="true"/>
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="generateImage" type="xboolean" value="true"/>
         <entry key="customCSS" type="xstring" value=""/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -254,9 +254,9 @@
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="SVG 800 x 600"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -271,6 +271,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="132cb2af-2756-4c5f-9acf-6cdc7e24549e"/>
+        <entry key="file_store_id" type="xstring" value="719fd815-59d2-428f-b26c-712cf89f6618"/>
     </config>
 </config>
