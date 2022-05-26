@@ -1,0 +1,36 @@
+
+{
+    "type": "object",
+    "properties": {
+        "date-time-input-262": {
+            "type": "string",
+            "default": "2022-05-26T15:59:26+02:00[Europe/Paris]",
+            "description": "Enter Description",
+            "example": "2022-05-26T15:59:26+02:00[Europe/Paris]"
+        },
+        "date-time-input-245": {
+            "type": "string",
+            "default": "2022-05-26T15:59:26+02:00[Europe/Paris]",
+            "description": "Enter Description",
+            "example": "2022-05-26T15:59:26+02:00[Europe/Paris]"
+        },
+        "date-time-input-276": {
+            "type": "string",
+            "default": "2022-05-26T15:59:26+02:00[Europe/Paris]",
+            "description": "Enter Description",
+            "example": "2022-05-26T15:59:26+02:00[Europe/Paris]"
+        },
+        "date-time-input-257": {
+            "type": "string",
+            "default": "2022-05-26T15:59:26+02:00[Europe/Paris]",
+            "description": "Enter Description",
+            "example": "2022-05-26T15:59:26+02:00[Europe/Paris]"
+        },
+        "date-time-input-179:276": {
+            "type": "string",
+            "default": "2022-05-26T15:59:26+02:00[Europe/Paris]",
+            "description": "Enter Description",
+            "example": "2022-05-26T15:59:26+02:00[Europe/Paris]"
+        }
+    }
+}

@@ -10,7 +10,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="weights" type="xstring" value="Center simple"/>
+        <entry key="weights" type="xstring" value="Backward simple"/>
         <config key="win_length_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -66,6 +66,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="68a12246-b19c-4a42-93df-5c7e1bc403cd"/>
+        <entry key="file_store_id" type="xstring" value="606f49cd-fd9c-46d2-afc9-2702780de7de"/>
     </config>
 </config>
