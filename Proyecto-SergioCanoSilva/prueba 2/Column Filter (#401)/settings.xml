@@ -41,7 +41,7 @@
                 <entry key="28" type="xstring" value="Mean(Sweden)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="83"/>
+                <entry key="array-size" type="xint" value="27"/>
                 <entry key="0" type="xstring" value="First(Date&amp;Time) (Iter #1)"/>
                 <entry key="1" type="xstring" value="First(Date&amp;Time) (Iter #10)"/>
                 <entry key="2" type="xstring" value="First(Date&amp;Time) (Iter #11)"/>
@@ -69,62 +69,6 @@
                 <entry key="24" type="xstring" value="First(Date&amp;Time) (Iter #7)"/>
                 <entry key="25" type="xstring" value="First(Date&amp;Time) (Iter #8)"/>
                 <entry key="26" type="xstring" value="First(Date&amp;Time) (Iter #9)"/>
-                <entry key="27" type="xstring" value="Standard deviation(Austria)"/>
-                <entry key="28" type="xstring" value="Standard deviation(Belgium)"/>
-                <entry key="29" type="xstring" value="Standard deviation(Bulgaria)"/>
-                <entry key="30" type="xstring" value="Standard deviation(Croatia)"/>
-                <entry key="31" type="xstring" value="Standard deviation(Cyprus)"/>
-                <entry key="32" type="xstring" value="Standard deviation(Czech Republic)"/>
-                <entry key="33" type="xstring" value="Standard deviation(Denmark)"/>
-                <entry key="34" type="xstring" value="Standard deviation(EU-27)"/>
-                <entry key="35" type="xstring" value="Standard deviation(Estonia)"/>
-                <entry key="36" type="xstring" value="Standard deviation(Finland)"/>
-                <entry key="37" type="xstring" value="Standard deviation(France)"/>
-                <entry key="38" type="xstring" value="Standard deviation(Germany)"/>
-                <entry key="39" type="xstring" value="Standard deviation(Greece)"/>
-                <entry key="40" type="xstring" value="Standard deviation(Hungary)"/>
-                <entry key="41" type="xstring" value="Standard deviation(Ireland)"/>
-                <entry key="42" type="xstring" value="Standard deviation(Italy)"/>
-                <entry key="43" type="xstring" value="Standard deviation(Latvia)"/>
-                <entry key="44" type="xstring" value="Standard deviation(Lithuania)"/>
-                <entry key="45" type="xstring" value="Standard deviation(Luxembourg)"/>
-                <entry key="46" type="xstring" value="Standard deviation(Malta)"/>
-                <entry key="47" type="xstring" value="Standard deviation(Netherlands)"/>
-                <entry key="48" type="xstring" value="Standard deviation(Poland)"/>
-                <entry key="49" type="xstring" value="Standard deviation(Portugal)"/>
-                <entry key="50" type="xstring" value="Standard deviation(Romania)"/>
-                <entry key="51" type="xstring" value="Standard deviation(Slovak Republic)"/>
-                <entry key="52" type="xstring" value="Standard deviation(Slovenia)"/>
-                <entry key="53" type="xstring" value="Standard deviation(Spain)"/>
-                <entry key="54" type="xstring" value="Standard deviation(Sweden)"/>
-                <entry key="55" type="xstring" value="Variance(Austria)"/>
-                <entry key="56" type="xstring" value="Variance(Belgium)"/>
-                <entry key="57" type="xstring" value="Variance(Bulgaria)"/>
-                <entry key="58" type="xstring" value="Variance(Croatia)"/>
-                <entry key="59" type="xstring" value="Variance(Cyprus)"/>
-                <entry key="60" type="xstring" value="Variance(Czech Republic)"/>
-                <entry key="61" type="xstring" value="Variance(Denmark)"/>
-                <entry key="62" type="xstring" value="Variance(EU-27)"/>
-                <entry key="63" type="xstring" value="Variance(Estonia)"/>
-                <entry key="64" type="xstring" value="Variance(Finland)"/>
-                <entry key="65" type="xstring" value="Variance(France)"/>
-                <entry key="66" type="xstring" value="Variance(Germany)"/>
-                <entry key="67" type="xstring" value="Variance(Greece)"/>
-                <entry key="68" type="xstring" value="Variance(Hungary)"/>
-                <entry key="69" type="xstring" value="Variance(Ireland)"/>
-                <entry key="70" type="xstring" value="Variance(Italy)"/>
-                <entry key="71" type="xstring" value="Variance(Latvia)"/>
-                <entry key="72" type="xstring" value="Variance(Lithuania)"/>
-                <entry key="73" type="xstring" value="Variance(Luxembourg)"/>
-                <entry key="74" type="xstring" value="Variance(Malta)"/>
-                <entry key="75" type="xstring" value="Variance(Netherlands)"/>
-                <entry key="76" type="xstring" value="Variance(Poland)"/>
-                <entry key="77" type="xstring" value="Variance(Portugal)"/>
-                <entry key="78" type="xstring" value="Variance(Romania)"/>
-                <entry key="79" type="xstring" value="Variance(Slovak Republic)"/>
-                <entry key="80" type="xstring" value="Variance(Slovenia)"/>
-                <entry key="81" type="xstring" value="Variance(Spain)"/>
-                <entry key="82" type="xstring" value="Variance(Sweden)"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -173,6 +117,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9773f240-cd7b-4b1c-a27b-a1333d1471b9"/>
+        <entry key="file_store_id" type="xstring" value="1360e2fb-3f4f-4069-8d36-f6d00fd707b0"/>
     </config>
 </config>
