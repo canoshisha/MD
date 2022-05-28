@@ -24,7 +24,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Standard deviation(EU-27)"/>
+        <entry key="column_name" type="xstring" value="Standard deviation(Austria)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -41,7 +41,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1.117977135895987E7"/>
+                    <entry key="DoubleCell" type="xdouble" value="115231.95659947312"/>
                 </config>
             </config>
         </config>

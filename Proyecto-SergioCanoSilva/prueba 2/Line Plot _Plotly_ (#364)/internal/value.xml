@@ -10,7 +10,7 @@
         <entry key="class_1" type="xstring" value="[Ljava.lang.String;"/>
         <config key="value_1">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Variance(EU-27)"/>
+            <entry key="0" type="xstring" value="Variance(Austria)"/>
         </config>
         <entry key="key_2" type="xstring" value="showLegend"/>
         <entry key="class_2" type="xstring" value="java.lang.Boolean"/>
@@ -23,7 +23,7 @@
         <entry key="value_4" type="xboolean" value="true"/>
         <entry key="key_5" type="xstring" value="title"/>
         <entry key="class_5" type="xstring" value="java.lang.String"/>
-        <entry key="value_5" type="xstring" value="EU-27"/>
+        <entry key="value_5" type="xstring" value="Austria"/>
         <entry key="key_6" type="xstring" value="yAxisLabel"/>
         <entry key="class_6" type="xstring" value="java.lang.String"/>
         <entry key="value_6" type="xstring" value="DETAILS"/>

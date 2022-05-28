@@ -8,10 +8,10 @@
         <entry key="authored-by" type="xstring" value="matero"/>
         <entry key="authored-when" type="xstring" value="2022-05-11 16:19:01 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="sergi"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-05-26 17:42:07 +0200"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-05-28 12:06:56 +0200"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">
@@ -232,7 +232,7 @@
         <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
         <entry key="workflow.editor.gridX" type="xint" value="20"/>
         <entry key="workflow.editor.gridY" type="xint" value="20"/>
-        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="0.75"/>
         <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
         <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
     </config>

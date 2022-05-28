@@ -24,7 +24,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="EU-27"/>
+        <entry key="column_name" type="xstring" value="Austria"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -41,7 +41,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
                 <config key="org.knime.core.data.def.LongCell">
-                    <entry key="LongCell" type="xlong" value="329136236"/>
+                    <entry key="LongCell" type="xlong" value="6778143"/>
                 </config>
             </config>
         </config>
