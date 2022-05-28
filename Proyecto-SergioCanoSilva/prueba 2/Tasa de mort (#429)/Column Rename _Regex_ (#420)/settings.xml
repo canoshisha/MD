@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="searchString" type="xstring" value="(#1)"/>
-        <entry key="replaceString" type="xstring" value="tasa mortalidad"/>
+        <entry key="replaceString" type="xstring" value="(tasa mortalidad)"/>
         <entry key="isCaseInsensitive" type="xboolean" value="false"/>
         <entry key="isLiteral" type="xboolean" value="true"/>
     </config>
@@ -38,6 +38,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8ee7b387-86a8-4dc5-adef-e860580acd6e"/>
+        <entry key="file_store_id" type="xstring" value="267fada4-15b9-46b1-a5ef-15166ba0a60f"/>
     </config>
 </config>
