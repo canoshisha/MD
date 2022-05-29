@@ -67,6 +67,20 @@
             <entry key="56" type="xstring" value="Mean(Sweden) (muertos)"/>
         </config>
     </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Ordenamos %%00013%%00010las filas %%00013%%00010para los cálculos%%00013%%00010 necesarios"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="447"/>
+        <entry key="y-coordinate" type="xint" value="159"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="60"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory"/>
@@ -94,6 +108,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5add1c41-13a8-4623-b8bf-a4024067fe4c"/>
+        <entry key="file_store_id" type="xstring" value="b3293544-e082-4dea-bd62-e99d53865b67"/>
     </config>
 </config>

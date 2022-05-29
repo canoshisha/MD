@@ -25,15 +25,15 @@
         <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
         <config key="port-names">
             <entry key="array-size" type="xint" value="2"/>
-            <entry key="0" type="xstring" value="Port 1"/>
-            <entry key="1" type="xstring" value="Port 2"/>
+            <entry key="0" type="xstring" value=""/>
+            <entry key="1" type="xstring" value=""/>
         </config>
         <config key="port-descriptions">
             <entry key="array-size" type="xint" value="2"/>
             <entry key="0" type="xstring" value=""/>
             <entry key="1" type="xstring" value=""/>
         </config>
-        <entry key="sub-node-description" type="xstring" value=""/>
+        <entry key="sub-node-description" type="xstring" value="Cálculo de la tasa de mortalidad respecto a la media personas confirmadas y muertas."/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -83,6 +83,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ac8299f4-27f5-49a5-ade1-743cb9fd6191"/>
+        <entry key="file_store_id" type="xstring" value="a69322ad-39b9-4fe2-8384-6425f1eea1b0"/>
     </config>
 </config>
