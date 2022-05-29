@@ -137,7 +137,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="En este nodo se ordenan las columnas en orden alfabetico"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Column Resorter"/>
@@ -164,6 +164,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2c2a3053-6999-419d-b1ec-ecd3990f2ed6"/>
+        <entry key="file_store_id" type="xstring" value="1d9a96fa-9068-4f49-8573-dd81d77c7267"/>
     </config>
 </config>

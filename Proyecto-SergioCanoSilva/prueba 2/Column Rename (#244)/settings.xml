@@ -14,6 +14,20 @@
             </config>
         </config>
     </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Renombramos %%00013%%00010fecha"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="847"/>
+        <entry key="y-coordinate" type="xint" value="40"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
@@ -41,6 +55,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="641566de-8bda-4b6b-bcea-efaab9512082"/>
+        <entry key="file_store_id" type="xstring" value="4053f37c-ccf8-4b92-83dc-a983b24c9609"/>
     </config>
 </config>

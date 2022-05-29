@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <config key="column-filter">
-            <entry key="filter-type" type="xstring" value="name_pattern"/>
+            <entry key="filter-type" type="xstring" value="datatype"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="First(Date&amp;Time)"/>
@@ -52,7 +52,7 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.time.localdate.LocalDateValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.time.localdate.LocalDateValue" type="xboolean" value="true"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
@@ -113,6 +113,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="fde917ea-b405-4a2b-a696-5075236c6d93"/>
+        <entry key="file_store_id" type="xstring" value="65281371-0a15-4ba1-b265-b5da6669b923"/>
     </config>
 </config>

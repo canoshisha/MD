@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <config key="column-filter">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="28"/>
                 <entry key="0" type="xstring" value="Mean(Austria) (#1)"/>
@@ -100,8 +100,8 @@
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
-                <entry key="pattern" type="xstring" value="(#1)"/>
-                <entry key="type" type="xstring" value="Regex"/>
+                <entry key="pattern" type="xstring" value="*(#1)*"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
@@ -167,6 +167,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4cd07e7b-e32a-4d4a-9320-86ae98248737"/>
+        <entry key="file_store_id" type="xstring" value="bbf4f34b-af8b-4304-81bb-923ddd23d377"/>
     </config>
 </config>

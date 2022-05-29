@@ -6,18 +6,14 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="retained_columns_Internals">
+        <config key="value_columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="retained_columns">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+        <config key="value_columns">
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Country/Region"/>
-            </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="805"/>
+                <entry key="array-size" type="xint" value="855"/>
                 <entry key="0" type="xstring" value="1/22/20"/>
                 <entry key="1" type="xstring" value="1/23/20"/>
                 <entry key="2" type="xstring" value="1/24/20"/>
@@ -823,13 +819,67 @@
                 <entry key="802" type="xstring" value="4/3/22"/>
                 <entry key="803" type="xstring" value="4/4/22"/>
                 <entry key="804" type="xstring" value="4/5/22"/>
+                <entry key="805" type="xstring" value="4/6/22"/>
+                <entry key="806" type="xstring" value="4/7/22"/>
+                <entry key="807" type="xstring" value="4/8/22"/>
+                <entry key="808" type="xstring" value="4/9/22"/>
+                <entry key="809" type="xstring" value="4/10/22"/>
+                <entry key="810" type="xstring" value="4/11/22"/>
+                <entry key="811" type="xstring" value="4/12/22"/>
+                <entry key="812" type="xstring" value="4/13/22"/>
+                <entry key="813" type="xstring" value="4/14/22"/>
+                <entry key="814" type="xstring" value="4/15/22"/>
+                <entry key="815" type="xstring" value="4/16/22"/>
+                <entry key="816" type="xstring" value="4/17/22"/>
+                <entry key="817" type="xstring" value="4/18/22"/>
+                <entry key="818" type="xstring" value="4/19/22"/>
+                <entry key="819" type="xstring" value="4/20/22"/>
+                <entry key="820" type="xstring" value="4/21/22"/>
+                <entry key="821" type="xstring" value="4/22/22"/>
+                <entry key="822" type="xstring" value="4/23/22"/>
+                <entry key="823" type="xstring" value="4/24/22"/>
+                <entry key="824" type="xstring" value="4/25/22"/>
+                <entry key="825" type="xstring" value="4/26/22"/>
+                <entry key="826" type="xstring" value="4/27/22"/>
+                <entry key="827" type="xstring" value="4/28/22"/>
+                <entry key="828" type="xstring" value="4/29/22"/>
+                <entry key="829" type="xstring" value="4/30/22"/>
+                <entry key="830" type="xstring" value="5/1/22"/>
+                <entry key="831" type="xstring" value="5/2/22"/>
+                <entry key="832" type="xstring" value="5/3/22"/>
+                <entry key="833" type="xstring" value="5/4/22"/>
+                <entry key="834" type="xstring" value="5/5/22"/>
+                <entry key="835" type="xstring" value="5/6/22"/>
+                <entry key="836" type="xstring" value="5/7/22"/>
+                <entry key="837" type="xstring" value="5/8/22"/>
+                <entry key="838" type="xstring" value="5/9/22"/>
+                <entry key="839" type="xstring" value="5/10/22"/>
+                <entry key="840" type="xstring" value="5/11/22"/>
+                <entry key="841" type="xstring" value="5/12/22"/>
+                <entry key="842" type="xstring" value="5/13/22"/>
+                <entry key="843" type="xstring" value="5/14/22"/>
+                <entry key="844" type="xstring" value="5/15/22"/>
+                <entry key="845" type="xstring" value="5/16/22"/>
+                <entry key="846" type="xstring" value="5/17/22"/>
+                <entry key="847" type="xstring" value="5/18/22"/>
+                <entry key="848" type="xstring" value="5/19/22"/>
+                <entry key="849" type="xstring" value="5/20/22"/>
+                <entry key="850" type="xstring" value="5/21/22"/>
+                <entry key="851" type="xstring" value="5/22/22"/>
+                <entry key="852" type="xstring" value="5/23/22"/>
+                <entry key="853" type="xstring" value="5/24/22"/>
+                <entry key="854" type="xstring" value="5/25/22"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Country/Region"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
-                <entry key="pattern" type="xstring" value=""/>
+                <entry key="pattern" type="xstring" value="Country/Region"/>
                 <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
-                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="excludeMatching" type="xboolean" value="true"/>
             </config>
             <config key="datatype">
                 <config key="typelist">
@@ -842,13 +892,72 @@
                 </config>
             </config>
         </config>
-        <config key="value_columns_Internals">
+        <config key="missing-values_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="missing-values" type="xboolean" value="false"/>
+        <config key="retained_columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="value_columns">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+        <config key="retained_columns">
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
             <config key="included_names">
+                <entry key="array-size" type="xint" value="51"/>
+                <entry key="0" type="xstring" value="Country/Region"/>
+                <entry key="1" type="xstring" value="4/6/22"/>
+                <entry key="2" type="xstring" value="4/7/22"/>
+                <entry key="3" type="xstring" value="4/8/22"/>
+                <entry key="4" type="xstring" value="4/9/22"/>
+                <entry key="5" type="xstring" value="4/10/22"/>
+                <entry key="6" type="xstring" value="4/11/22"/>
+                <entry key="7" type="xstring" value="4/12/22"/>
+                <entry key="8" type="xstring" value="4/13/22"/>
+                <entry key="9" type="xstring" value="4/14/22"/>
+                <entry key="10" type="xstring" value="4/15/22"/>
+                <entry key="11" type="xstring" value="4/16/22"/>
+                <entry key="12" type="xstring" value="4/17/22"/>
+                <entry key="13" type="xstring" value="4/18/22"/>
+                <entry key="14" type="xstring" value="4/19/22"/>
+                <entry key="15" type="xstring" value="4/20/22"/>
+                <entry key="16" type="xstring" value="4/21/22"/>
+                <entry key="17" type="xstring" value="4/22/22"/>
+                <entry key="18" type="xstring" value="4/23/22"/>
+                <entry key="19" type="xstring" value="4/24/22"/>
+                <entry key="20" type="xstring" value="4/25/22"/>
+                <entry key="21" type="xstring" value="4/26/22"/>
+                <entry key="22" type="xstring" value="4/27/22"/>
+                <entry key="23" type="xstring" value="4/28/22"/>
+                <entry key="24" type="xstring" value="4/29/22"/>
+                <entry key="25" type="xstring" value="4/30/22"/>
+                <entry key="26" type="xstring" value="5/1/22"/>
+                <entry key="27" type="xstring" value="5/2/22"/>
+                <entry key="28" type="xstring" value="5/3/22"/>
+                <entry key="29" type="xstring" value="5/4/22"/>
+                <entry key="30" type="xstring" value="5/5/22"/>
+                <entry key="31" type="xstring" value="5/6/22"/>
+                <entry key="32" type="xstring" value="5/7/22"/>
+                <entry key="33" type="xstring" value="5/8/22"/>
+                <entry key="34" type="xstring" value="5/9/22"/>
+                <entry key="35" type="xstring" value="5/10/22"/>
+                <entry key="36" type="xstring" value="5/11/22"/>
+                <entry key="37" type="xstring" value="5/12/22"/>
+                <entry key="38" type="xstring" value="5/13/22"/>
+                <entry key="39" type="xstring" value="5/14/22"/>
+                <entry key="40" type="xstring" value="5/15/22"/>
+                <entry key="41" type="xstring" value="5/16/22"/>
+                <entry key="42" type="xstring" value="5/17/22"/>
+                <entry key="43" type="xstring" value="5/18/22"/>
+                <entry key="44" type="xstring" value="5/19/22"/>
+                <entry key="45" type="xstring" value="5/20/22"/>
+                <entry key="46" type="xstring" value="5/21/22"/>
+                <entry key="47" type="xstring" value="5/22/22"/>
+                <entry key="48" type="xstring" value="5/23/22"/>
+                <entry key="49" type="xstring" value="5/24/22"/>
+                <entry key="50" type="xstring" value="5/25/22"/>
+            </config>
+            <config key="excluded_names">
                 <entry key="array-size" type="xint" value="805"/>
                 <entry key="0" type="xstring" value="1/22/20"/>
                 <entry key="1" type="xstring" value="1/23/20"/>
@@ -1656,16 +1765,12 @@
                 <entry key="803" type="xstring" value="4/4/22"/>
                 <entry key="804" type="xstring" value="4/5/22"/>
             </config>
-            <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Country/Region"/>
-            </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
-                <entry key="excludeMatching" type="xboolean" value="false"/>
+                <entry key="excludeMatching" type="xboolean" value="true"/>
             </config>
             <config key="datatype">
                 <config key="typelist">
@@ -1683,11 +1788,6 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enable-hiliting" type="xboolean" value="false"/>
-        <config key="missing-values_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="missing-values" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -1710,12 +1810,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 37620, Cols: 54"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 37620, Cols: 859"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8ee78388-bde3-4991-9ec4-7985f5514868"/>
+        <entry key="file_store_id" type="xstring" value="9ebdc982-d9dc-44a4-9455-3b45e5811173"/>
     </config>
 </config>
