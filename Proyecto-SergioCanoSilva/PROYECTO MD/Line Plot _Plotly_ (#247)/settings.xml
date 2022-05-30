@@ -6,24 +6,11 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="generateImagemodel_Internals">
+        <config key="showClearSelectionButton_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="generateImagemodel" type="xboolean" value="true"/>
-        <config key="maxRowsmodel_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="maxRowsmodel" type="xint" value="2500"/>
-        <config key="xAxisColumn_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="xAxisColumn">
-            <entry key="useRowID" type="xboolean" value="false"/>
-            <entry key="columnName" type="xstring" value="Date&amp;Time"/>
-        </config>
+        <entry key="showClearSelectionButton" type="xboolean" value="true"/>
         <config key="columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -79,61 +66,26 @@
                 </config>
             </config>
         </config>
-        <config key="reportMissing_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="reportMissing" type="xboolean" value="true"/>
-        <config key="mValues_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="mValues" type="xstring" value="Leave missing values"/>
-        <config key="title_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="title" type="xstring" value="Defunciones"/>
-        <config key="xAxisLabel_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="xAxisLabel" type="xstring" value="Date"/>
-        <config key="yAxisLabel_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="yAxisLabel" type="xstring" value="Número de personas"/>
-        <config key="svg_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <config key="svg">
-            <entry key="width" type="xint" value="800"/>
-            <entry key="height" type="xint" value="600"/>
-            <entry key="fullscreen" type="xboolean" value="true"/>
-            <entry key="showFullscreen" type="xboolean" value="true"/>
-        </config>
         <config key="showLegend_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="showLegend" type="xboolean" value="true"/>
-        <config key="showGrid_Internals">
+        <config key="enableGL_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="showGrid" type="xboolean" value="true"/>
-        <config key="showWarnings_Internals">
+        <entry key="enableGL" type="xboolean" value="true"/>
+        <config key="showFullscreen_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="showWarnings" type="xboolean" value="true"/>
-        <config key="overrideColors_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <entry key="showFullscreen" type="xboolean" value="true"/>
+        <config key="title_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="overrideColors" type="xboolean" value="true"/>
+        <entry key="title" type="xstring" value="Defunciones"/>
         <config key="dataColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -144,6 +96,36 @@
             <entry key="Blue" type="xint" value="255"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
+        <config key="publishSelectionToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="publishSelectionToggle" type="xboolean" value="true"/>
+        <config key="xAxisLabel_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="xAxisLabel" type="xstring" value="Date"/>
+        <config key="reportMissing_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="reportMissing" type="xboolean" value="true"/>
+        <config key="showWarnings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showWarnings" type="xboolean" value="true"/>
+        <config key="subscribeFilterToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="subscribeFilterToggle" type="xboolean" value="true"/>
+        <config key="publishSelection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="publishSelection" type="xboolean" value="true"/>
         <config key="backgroundColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -154,15 +136,73 @@
             <entry key="Blue" type="xint" value="255"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="daColor_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+        <config key="enableEditing_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <config key="daColor">
-            <entry key="Red" type="xint" value="255"/>
-            <entry key="Green" type="xint" value="255"/>
-            <entry key="Blue" type="xint" value="255"/>
-            <entry key="Alpha" type="xint" value="255"/>
+        <entry key="enableEditing" type="xboolean" value="false"/>
+        <config key="svg_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="svg">
+            <entry key="width" type="xint" value="800"/>
+            <entry key="height" type="xint" value="600"/>
+            <entry key="fullscreen" type="xboolean" value="true"/>
+            <entry key="showFullscreen" type="xboolean" value="true"/>
+        </config>
+        <config key="subscribeToFilters_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="subscribeToFilters" type="xboolean" value="true"/>
+        <config key="enableSelection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableSelection" type="xboolean" value="true"/>
+        <config key="showGrid_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showGrid" type="xboolean" value="true"/>
+        <config key="overrideColors_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="overrideColors" type="xboolean" value="true"/>
+        <config key="showSelectedOnlyToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showSelectedOnlyToggle" type="xboolean" value="true"/>
+        <config key="yAxisLabel_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="yAxisLabel" type="xstring" value="Número de personas"/>
+        <config key="tooltipToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="tooltipToggle" type="xboolean" value="true"/>
+        <config key="enablePlotlyEditor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enablePlotlyEditor" type="xboolean" value="false"/>
+        <config key="subscribeSelectionToggle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="subscribeSelectionToggle" type="xboolean" value="true"/>
+        <config key="xAxisColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="xAxisColumn">
+            <entry key="useRowID" type="xboolean" value="false"/>
+            <entry key="columnName" type="xstring" value="Date&amp;Time"/>
         </config>
         <config key="gridColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
@@ -174,86 +214,36 @@
             <entry key="Blue" type="xint" value="0"/>
             <entry key="Alpha" type="xint" value="255"/>
         </config>
-        <config key="enableGL_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableGL" type="xboolean" value="true"/>
-        <config key="enableViewControls_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableViewControls" type="xboolean" value="true"/>
-        <config key="showFullscreen_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="showFullscreen" type="xboolean" value="true"/>
-        <config key="tooltipToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="tooltipToggle" type="xboolean" value="true"/>
         <config key="enableFeatureSelection_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="enableFeatureSelection" type="xboolean" value="true"/>
-        <config key="enableEditing_Internals">
+        <config key="enableViewControls_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="enableEditing" type="xboolean" value="false"/>
-        <config key="showSelectedOnlyToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="showSelectedOnlyToggle" type="xboolean" value="true"/>
-        <config key="publishSelectionToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="publishSelectionToggle" type="xboolean" value="true"/>
-        <config key="subscribeSelectionToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="subscribeSelectionToggle" type="xboolean" value="true"/>
-        <config key="subscribeFilterToggle_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="subscribeFilterToggle" type="xboolean" value="true"/>
-        <config key="enablePlotlyEditor_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enablePlotlyEditor" type="xboolean" value="false"/>
-        <config key="enableSelection_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="enableSelection" type="xboolean" value="true"/>
-        <config key="showClearSelectionButton_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="showClearSelectionButton" type="xboolean" value="true"/>
-        <config key="publishSelection_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="publishSelection" type="xboolean" value="true"/>
+        <entry key="enableViewControls" type="xboolean" value="true"/>
         <config key="subscribeToSelection_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="subscribeToSelection" type="xboolean" value="true"/>
-        <config key="subscribeToFilters_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+        <config key="mValues_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="subscribeToFilters" type="xboolean" value="true"/>
+        <entry key="mValues" type="xstring" value="Leave missing values"/>
+        <config key="daColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="daColor">
+            <entry key="Red" type="xint" value="255"/>
+            <entry key="Green" type="xint" value="255"/>
+            <entry key="Blue" type="xint" value="255"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
         <entry key="hideInWizard" type="xboolean" value="false"/>
         <entry key="maxRows" type="xint" value="2500"/>
         <entry key="generateImage" type="xboolean" value="true"/>
@@ -324,6 +314,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="71fd2220-f5cf-4f2f-84a8-489da4da7f32"/>
+        <entry key="file_store_id" type="xstring" value="daf95379-7c67-4227-8345-24e3dc28ab97"/>
     </config>
 </config>

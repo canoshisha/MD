@@ -54,7 +54,7 @@
         </config>
     </config>
     <config key="metadata">
-        <entry key="description" type="xstring" value=""/>
+        <entry key="description" type="xstring" value="En este Componente se genera una tabla con todas las gráficas solicitadas"/>
         <config key="inports">
             <config key="inport_0">
                 <entry key="name" type="xstring" value="Port 1"/>

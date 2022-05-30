@@ -61,7 +61,7 @@
             <entry key="1" type="xstring" value=""/>
             <entry key="2" type="xstring" value=""/>
         </config>
-        <entry key="sub-node-description" type="xstring" value=""/>
+        <entry key="sub-node-description" type="xstring" value="En este Componente se genera una tabla con todas las gráficas solicitadas"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -124,6 +124,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="60ab1952-ab71-4338-aceb-4b1117556a77"/>
+        <entry key="file_store_id" type="xstring" value="abdc145e-8d89-4214-b8cf-55e6bce2272a"/>
     </config>
 </config>
