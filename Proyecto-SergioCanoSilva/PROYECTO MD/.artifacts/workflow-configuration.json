@@ -1,0 +1,18 @@
+
+{
+    "Continente-486": {
+        "label": "Label",
+        "type": "string",
+        "default": "EU-27"
+    },
+    "Continente-484": {
+        "label": "Label",
+        "type": "string",
+        "default": "EU-27"
+    },
+    "Continente-488": {
+        "label": "Label",
+        "type": "string",
+        "default": "EU-27"
+    }
+}
