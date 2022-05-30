@@ -93,17 +93,17 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="title" type="xstring" value="EU-27"/>
+        <entry key="title" type="xstring" value="Confirmados"/>
         <config key="xAxisLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="xAxisLabel" type="xstring" value="DATE"/>
+        <entry key="xAxisLabel" type="xstring" value="Date"/>
         <config key="yAxisLabel_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="yAxisLabel" type="xstring" value="DETAILS"/>
+        <entry key="yAxisLabel" type="xstring" value="Número de personas"/>
         <config key="svg_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -324,6 +324,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5d53a4fa-a1f6-4b86-b013-039b04ad18af"/>
+        <entry key="file_store_id" type="xstring" value="d31dc129-8077-4159-a7c2-0de01e97ef58"/>
     </config>
 </config>
