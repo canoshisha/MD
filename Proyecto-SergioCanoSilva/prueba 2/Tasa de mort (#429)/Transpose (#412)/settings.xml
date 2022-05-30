@@ -26,7 +26,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Transpongo la tabla para poder realizar los calculos de manera más facil"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.transpose.TransposeTableNodeFactory"/>
     <entry key="node-name" type="xstring" value="Transpose"/>
@@ -47,7 +47,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 124, Cols: 2"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 123, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>

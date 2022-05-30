@@ -31,7 +31,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Pasar de imagen a tabla"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.image.ImageToTableNodeFactory"/>
     <entry key="node-name" type="xstring" value="Image To Table"/>
@@ -58,6 +58,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d6612b55-dc71-4a0a-86f6-3bad8e92476f"/>
+        <entry key="file_store_id" type="xstring" value="4d466d6a-d7d2-4413-aa44-6a34b3560a8f"/>
     </config>
 </config>

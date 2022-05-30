@@ -38,7 +38,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Ponemos los missing de los dias introducidos como  0"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Missing Value"/>
@@ -59,7 +59,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 876, Cols: 29"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 880, Cols: 29"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -74,6 +74,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6c7c5eed-547d-4c71-ab8c-a3eec2158665"/>
+        <entry key="file_store_id" type="xstring" value="51f087fd-c6d3-465d-92bd-b8f2577f5f38"/>
     </config>
 </config>

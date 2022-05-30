@@ -396,7 +396,7 @@
             </config>
         </config>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Leemos la tabla de vacunados"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader"/>
@@ -427,6 +427,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="58d39efa-971d-476f-b2b5-53a36f336592"/>
+        <entry key="file_store_id" type="xstring" value="cd3e699a-f5be-497e-8602-181a1a32be96"/>
     </config>
 </config>

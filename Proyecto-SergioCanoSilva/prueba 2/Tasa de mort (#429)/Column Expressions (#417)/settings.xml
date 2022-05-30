@@ -8,7 +8,7 @@
     <config key="model">
         <config key="expressions">
             <config key="element 0">
-                <entry key="expression" type="xstring" value="if(column(variable(&quot;Row1&quot;))==0 &amp;&amp;  column(variable(&quot;Row0&quot;))  == 0){%%00010    0%%00010}else{%%00010    (column(variable(&quot;Row1&quot;))/column(variable(&quot;Row0&quot;)))%%00010}%%00010"/>
+                <entry key="expression" type="xstring" value="if(column(variable(&quot;Row0&quot;))==0){%%00010    0%%00010}else{%%00010(column(variable(&quot;Row1&quot;))/column(variable(&quot;Row0&quot;)))%%00010}%%00010%%00010%%00010"/>
                 <entry key="outputName" type="xstring" value=""/>
                 <config key="outputType">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
@@ -70,7 +70,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 124, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 123, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>

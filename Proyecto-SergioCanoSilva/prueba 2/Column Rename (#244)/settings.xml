@@ -28,7 +28,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Nodo para poner la columna fecha con el nombre Date"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.rename.RenameNodeFactory"/>
     <entry key="node-name" type="xstring" value="Column Rename"/>
@@ -49,12 +49,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 855, Cols: 28"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 859, Cols: 28"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4053f37c-ccf8-4b92-83dc-a983b24c9609"/>
+        <entry key="file_store_id" type="xstring" value="a0029622-bfa1-40b8-8123-8c7faef8bf15"/>
     </config>
 </config>

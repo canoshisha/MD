@@ -73,7 +73,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Pasamos la columna Date de tipo String a tipo Fecha"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory"/>
     <entry key="node-name" type="xstring" value="String to Date&amp;Time"/>
@@ -94,12 +94,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 855, Cols: 29"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 859, Cols: 29"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="279a3b5c-4dbf-4f4f-9020-be911faad16c"/>
+        <entry key="file_store_id" type="xstring" value="63636158-2f4d-493c-9787-325d191b5a61"/>
     </config>
 </config>

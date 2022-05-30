@@ -73,7 +73,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Pasamos la columna Date de tipo String a tipo Fecha"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory"/>
     <entry key="node-name" type="xstring" value="String to Date&amp;Time"/>
@@ -100,6 +100,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c3182725-0a80-40ab-ac56-abe1e592d04b"/>
+        <entry key="file_store_id" type="xstring" value="f668d464-e6f9-4481-ae54-0b440348d8a7"/>
     </config>
 </config>

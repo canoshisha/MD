@@ -11,7 +11,7 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="aggregationColumns">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <entry key="filter-type" type="xstring" value="datatype"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="27"/>
                 <entry key="0" type="xstring" value="Austria"/>
@@ -56,7 +56,7 @@
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="true"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
@@ -64,26 +64,26 @@
                 </config>
             </config>
         </config>
-        <config key="removeRetainedColumns_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="removeRetainedColumns" type="xboolean" value="false"/>
         <config key="removeAggregationColumns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="removeAggregationColumns" type="xboolean" value="false"/>
-        <config key="valueDelimiter_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+        <config key="removeRetainedColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="valueDelimiter" type="xstring" value=", "/>
+        <entry key="removeRetainedColumns" type="xboolean" value="false"/>
         <config key="maxNoneNumericalVals_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
         <config key="aggregationMethods">
             <config key="resultColName">
                 <entry key="array-size" type="xint" value="1"/>
@@ -118,7 +118,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Sumamos todos los paises para realizar el cálculo de EU"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.columnaggregator.ColumnAggregatorNodeFactory"/>
     <entry key="node-name" type="xstring" value="Column Aggregator"/>
@@ -139,12 +139,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 855, Cols: 29"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 859, Cols: 29"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="26f0002d-f9ba-438f-a7ab-8ef3d1bb2aea"/>
+        <entry key="file_store_id" type="xstring" value="bb5971f7-9c63-4de8-9d15-8e95864c5d4a"/>
     </config>
 </config>

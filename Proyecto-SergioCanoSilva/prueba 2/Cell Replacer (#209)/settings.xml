@@ -62,7 +62,7 @@
         <entry key="annotation-version" type="xint" value="20151123"/>
         <config key="styles"/>
     </config>
-    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="customDescription" type="xstring" value="Reemplazo de  nombre de paises con nombres%%00013%%00010oficiales"/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.cellreplace.CellReplacerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Cell Replacer"/>
@@ -83,12 +83,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 3384291, Cols: 7"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3431353, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f72bd843-b7f8-4ecd-b535-0fbedde42986"/>
+        <entry key="file_store_id" type="xstring" value="61af7665-896d-4637-bcad-fa944592198e"/>
     </config>
 </config>

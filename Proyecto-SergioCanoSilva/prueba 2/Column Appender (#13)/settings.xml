@@ -49,9 +49,6 @@
             <config key="port_0">
                 <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
             </config>
-            <config key="port_1">
-                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            </config>
         </config>
         <config key="Appended columns"/>
     </config>
