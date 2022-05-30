@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="56"/>
+    <entry key="number_columns" type="xint" value="58"/>
     <config key="column_spec_0">
         <entry key="column_name" type="xstring" value="First(Date&amp;Time)"/>
         <config key="element_names">
@@ -24,7 +24,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Mean(Austria)"/>
+        <entry key="column_name" type="xstring" value="Mean(Argentina)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -41,7 +41,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="37434.0625"/>
+                    <entry key="DoubleCell" type="xdouble" value="87481.46874999999"/>
                 </config>
             </config>
         </config>
@@ -70,7 +70,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="Mean(Belgium)"/>
+        <entry key="column_name" type="xstring" value="Mean(Austria)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -87,7 +87,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="35753.87500000001"/>
+                    <entry key="DoubleCell" type="xdouble" value="37434.0625"/>
                 </config>
             </config>
         </config>
@@ -116,7 +116,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_5">
-        <entry key="column_name" type="xstring" value="Mean(Bulgaria)"/>
+        <entry key="column_name" type="xstring" value="Mean(Belgium)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -133,7 +133,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="7532.656249999999"/>
+                    <entry key="DoubleCell" type="xdouble" value="35753.87500000001"/>
                 </config>
             </config>
         </config>
@@ -162,7 +162,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_7">
-        <entry key="column_name" type="xstring" value="Mean(Croatia)"/>
+        <entry key="column_name" type="xstring" value="Mean(Bulgaria)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -179,7 +179,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="7846.906249999998"/>
+                    <entry key="DoubleCell" type="xdouble" value="7532.656249999999"/>
                 </config>
             </config>
         </config>
@@ -208,7 +208,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_9">
-        <entry key="column_name" type="xstring" value="Mean(Cyprus)"/>
+        <entry key="column_name" type="xstring" value="Mean(Croatia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -225,7 +225,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="3675.2812499999995"/>
+                    <entry key="DoubleCell" type="xdouble" value="7846.906249999998"/>
                 </config>
             </config>
         </config>
@@ -254,7 +254,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_11">
-        <entry key="column_name" type="xstring" value="Mean(Czech Republic)"/>
+        <entry key="column_name" type="xstring" value="Mean(Cyprus)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -271,7 +271,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="27303.09375000001"/>
+                    <entry key="DoubleCell" type="xdouble" value="3675.2812499999995"/>
                 </config>
             </config>
         </config>
@@ -300,7 +300,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_13">
-        <entry key="column_name" type="xstring" value="Mean(Denmark)"/>
+        <entry key="column_name" type="xstring" value="Mean(Czech Republic)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -317,7 +317,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="640.3125"/>
+                    <entry key="DoubleCell" type="xdouble" value="27303.09375000001"/>
                 </config>
             </config>
         </config>
@@ -346,7 +346,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_15">
-        <entry key="column_name" type="xstring" value="Mean(Estonia)"/>
+        <entry key="column_name" type="xstring" value="Mean(Denmark)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -363,7 +363,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="5823.343749999999"/>
+                    <entry key="DoubleCell" type="xdouble" value="640.3125"/>
                 </config>
             </config>
         </config>
@@ -392,7 +392,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_17">
-        <entry key="column_name" type="xstring" value="Mean(Finland)"/>
+        <entry key="column_name" type="xstring" value="Mean(Estonia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -403,13 +403,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.03125"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="7255.71875"/>
+                    <entry key="DoubleCell" type="xdouble" value="5823.343749999999"/>
                 </config>
             </config>
         </config>
@@ -438,7 +438,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_19">
-        <entry key="column_name" type="xstring" value="Mean(France)"/>
+        <entry key="column_name" type="xstring" value="Mean(Finland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -449,13 +449,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.03125"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="854.8125"/>
+                    <entry key="DoubleCell" type="xdouble" value="7255.71875"/>
                 </config>
             </config>
         </config>
@@ -484,7 +484,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_21">
-        <entry key="column_name" type="xstring" value="Mean(Germany)"/>
+        <entry key="column_name" type="xstring" value="Mean(France)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -495,13 +495,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.25"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="208947.90625000006"/>
+                    <entry key="DoubleCell" type="xdouble" value="854.8125"/>
                 </config>
             </config>
         </config>
@@ -530,7 +530,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_23">
-        <entry key="column_name" type="xstring" value="Mean(Greece)"/>
+        <entry key="column_name" type="xstring" value="Mean(Germany)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -541,13 +541,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.25"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="25124.84375000001"/>
+                    <entry key="DoubleCell" type="xdouble" value="208947.90625000006"/>
                 </config>
             </config>
         </config>
@@ -576,7 +576,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_25">
-        <entry key="column_name" type="xstring" value="Mean(Hungary)"/>
+        <entry key="column_name" type="xstring" value="Mean(Greece)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -593,7 +593,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="12343.656250000004"/>
+                    <entry key="DoubleCell" type="xdouble" value="25124.84375000001"/>
                 </config>
             </config>
         </config>
@@ -622,7 +622,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_27">
-        <entry key="column_name" type="xstring" value="Mean(Ireland)"/>
+        <entry key="column_name" type="xstring" value="Mean(Hungary)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -639,7 +639,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="14830.624999999998"/>
+                    <entry key="DoubleCell" type="xdouble" value="12343.656250000004"/>
                 </config>
             </config>
         </config>
@@ -668,7 +668,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_29">
-        <entry key="column_name" type="xstring" value="Mean(Italy)"/>
+        <entry key="column_name" type="xstring" value="Mean(Ireland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -679,13 +679,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.0625"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="158280.09375"/>
+                    <entry key="DoubleCell" type="xdouble" value="14830.624999999998"/>
                 </config>
             </config>
         </config>
@@ -714,7 +714,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_31">
-        <entry key="column_name" type="xstring" value="Mean(Latvia)"/>
+        <entry key="column_name" type="xstring" value="Mean(Italy)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -725,13 +725,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0625"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="9359.51724137931"/>
+                    <entry key="DoubleCell" type="xdouble" value="158280.09375"/>
                 </config>
             </config>
         </config>
@@ -760,7 +760,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_33">
-        <entry key="column_name" type="xstring" value="Mean(Lithuania)"/>
+        <entry key="column_name" type="xstring" value="Mean(Latvia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -777,7 +777,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="8781.375"/>
+                    <entry key="DoubleCell" type="xdouble" value="9359.51724137931"/>
                 </config>
             </config>
         </config>
@@ -806,7 +806,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_35">
-        <entry key="column_name" type="xstring" value="Mean(Luxembourg)"/>
+        <entry key="column_name" type="xstring" value="Mean(Lithuania)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -823,7 +823,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1866.3437499999995"/>
+                    <entry key="DoubleCell" type="xdouble" value="8781.375"/>
                 </config>
             </config>
         </config>
@@ -852,7 +852,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_37">
-        <entry key="column_name" type="xstring" value="Mean(Malta)"/>
+        <entry key="column_name" type="xstring" value="Mean(Luxembourg)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -869,7 +869,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="722.0312500000001"/>
+                    <entry key="DoubleCell" type="xdouble" value="1866.3437499999995"/>
                 </config>
             </config>
         </config>
@@ -898,7 +898,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_39">
-        <entry key="column_name" type="xstring" value="Mean(Netherlands)"/>
+        <entry key="column_name" type="xstring" value="Mean(Malta)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -915,7 +915,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="478.12500000000006"/>
+                    <entry key="DoubleCell" type="xdouble" value="722.0312500000001"/>
                 </config>
             </config>
         </config>
@@ -944,7 +944,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_41">
-        <entry key="column_name" type="xstring" value="Mean(Poland)"/>
+        <entry key="column_name" type="xstring" value="Mean(Netherlands)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -961,7 +961,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="37411.62499999999"/>
+                    <entry key="DoubleCell" type="xdouble" value="478.12500000000006"/>
                 </config>
             </config>
         </config>
@@ -990,7 +990,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_43">
-        <entry key="column_name" type="xstring" value="Mean(Portugal)"/>
+        <entry key="column_name" type="xstring" value="Mean(Poland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1007,7 +1007,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="46008.56250000001"/>
+                    <entry key="DoubleCell" type="xdouble" value="37411.62499999999"/>
                 </config>
             </config>
         </config>
@@ -1036,7 +1036,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_45">
-        <entry key="column_name" type="xstring" value="Mean(Romania)"/>
+        <entry key="column_name" type="xstring" value="Mean(Portugal)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1053,7 +1053,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="22738.343750000004"/>
+                    <entry key="DoubleCell" type="xdouble" value="46008.56250000001"/>
                 </config>
             </config>
         </config>
@@ -1082,7 +1082,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_47">
-        <entry key="column_name" type="xstring" value="Mean(Slovak Republic)"/>
+        <entry key="column_name" type="xstring" value="Mean(Romania)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1099,7 +1099,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="19496.156250000004"/>
+                    <entry key="DoubleCell" type="xdouble" value="22738.343750000004"/>
                 </config>
             </config>
         </config>
@@ -1128,7 +1128,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_49">
-        <entry key="column_name" type="xstring" value="Mean(Slovenia)"/>
+        <entry key="column_name" type="xstring" value="Mean(Slovak Republic)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1145,7 +1145,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="10780.906249999998"/>
+                    <entry key="DoubleCell" type="xdouble" value="19496.156250000004"/>
                 </config>
             </config>
         </config>
@@ -1174,7 +1174,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_51">
-        <entry key="column_name" type="xstring" value="Mean(Spain)"/>
+        <entry key="column_name" type="xstring" value="Mean(Slovenia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1185,13 +1185,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.03125"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="117088.53125"/>
+                    <entry key="DoubleCell" type="xdouble" value="10780.906249999998"/>
                 </config>
             </config>
         </config>
@@ -1220,7 +1220,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_53">
-        <entry key="column_name" type="xstring" value="Mean(Sweden)"/>
+        <entry key="column_name" type="xstring" value="Mean(Spain)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -1231,13 +1231,13 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.031249999999999993"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.03125"/>
                 </config>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="29063.5"/>
+                    <entry key="DoubleCell" type="xdouble" value="117088.53125"/>
                 </config>
             </config>
         </config>
@@ -1266,6 +1266,52 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_55">
+        <entry key="column_name" type="xstring" value="Mean(Sweden)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.031249999999999993"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="29063.5"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_56">
+        <entry key="column_name" type="xstring" value="First(Date&amp;Time) (Iter #28)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADBvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRlLkxvY2FsRGF0ZUNlbGyMRXN6y/zSRAIAAUwAC21fbG9jYWxEYXRldAAVTGphdmEvdGltZS9Mb2NhbERhdGU7eHIAHG9yZy5rbmltZS5jb3JlLmRhdGEuRGF0YUNlbGxm6eiJVomygAIAAHhwc3IADWphdmEudGltZS5TZXKVXYS6GyJIsgwAAHhwdwcDAAAH5AEBeA=="/>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADBvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRlLkxvY2FsRGF0ZUNlbGyMRXN6y/zSRAIAAUwAC21fbG9jYWxEYXRldAAVTGphdmEvdGltZS9Mb2NhbERhdGU7eHIAHG9yZy5rbmltZS5jb3JlLmRhdGEuRGF0YUNlbGxm6eiJVomygAIAAHhwc3IADWphdmEudGltZS5TZXKVXYS6GyJIsgwAAHhwdwcDAAAH5gUEeA=="/>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_57">
         <entry key="column_name" type="xstring" value="Mean(EU-27)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1283,7 +1329,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="703047.1874999998"/>
+                    <entry key="DoubleCell" type="xdouble" value="773849.1875"/>
                 </config>
             </config>
         </config>

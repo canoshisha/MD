@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="28"/>
+    <entry key="number_columns" type="xint" value="29"/>
     <config key="column_spec_0">
         <entry key="column_name" type="xstring" value="ColumnNames"/>
         <config key="element_names">
@@ -19,7 +19,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Austria"/>
+        <entry key="column_name" type="xstring" value="Argentina"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -44,7 +44,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="Belgium"/>
+        <entry key="column_name" type="xstring" value="Austria"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -69,7 +69,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="Bulgaria"/>
+        <entry key="column_name" type="xstring" value="Belgium"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -94,7 +94,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_4">
-        <entry key="column_name" type="xstring" value="Croatia"/>
+        <entry key="column_name" type="xstring" value="Bulgaria"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -119,7 +119,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_5">
-        <entry key="column_name" type="xstring" value="Cyprus"/>
+        <entry key="column_name" type="xstring" value="Croatia"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -144,7 +144,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_6">
-        <entry key="column_name" type="xstring" value="Czech Republic"/>
+        <entry key="column_name" type="xstring" value="Cyprus"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -169,7 +169,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_7">
-        <entry key="column_name" type="xstring" value="Denmark"/>
+        <entry key="column_name" type="xstring" value="Czech Republic"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -194,7 +194,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_8">
-        <entry key="column_name" type="xstring" value="Estonia"/>
+        <entry key="column_name" type="xstring" value="Denmark"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -219,7 +219,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_9">
-        <entry key="column_name" type="xstring" value="Finland"/>
+        <entry key="column_name" type="xstring" value="Estonia"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -244,7 +244,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_10">
-        <entry key="column_name" type="xstring" value="France"/>
+        <entry key="column_name" type="xstring" value="Finland"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -269,7 +269,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_11">
-        <entry key="column_name" type="xstring" value="Germany"/>
+        <entry key="column_name" type="xstring" value="France"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -294,7 +294,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_12">
-        <entry key="column_name" type="xstring" value="Greece"/>
+        <entry key="column_name" type="xstring" value="Germany"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -319,7 +319,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_13">
-        <entry key="column_name" type="xstring" value="Hungary"/>
+        <entry key="column_name" type="xstring" value="Greece"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -344,7 +344,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_14">
-        <entry key="column_name" type="xstring" value="Ireland"/>
+        <entry key="column_name" type="xstring" value="Hungary"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -369,7 +369,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_15">
-        <entry key="column_name" type="xstring" value="Italy"/>
+        <entry key="column_name" type="xstring" value="Ireland"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -394,7 +394,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_16">
-        <entry key="column_name" type="xstring" value="Latvia"/>
+        <entry key="column_name" type="xstring" value="Italy"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -419,7 +419,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_17">
-        <entry key="column_name" type="xstring" value="Lithuania"/>
+        <entry key="column_name" type="xstring" value="Latvia"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -444,7 +444,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_18">
-        <entry key="column_name" type="xstring" value="Luxembourg"/>
+        <entry key="column_name" type="xstring" value="Lithuania"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -469,7 +469,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_19">
-        <entry key="column_name" type="xstring" value="Malta"/>
+        <entry key="column_name" type="xstring" value="Luxembourg"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -494,7 +494,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_20">
-        <entry key="column_name" type="xstring" value="Netherlands"/>
+        <entry key="column_name" type="xstring" value="Malta"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -519,7 +519,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_21">
-        <entry key="column_name" type="xstring" value="Poland"/>
+        <entry key="column_name" type="xstring" value="Netherlands"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -544,7 +544,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_22">
-        <entry key="column_name" type="xstring" value="Portugal"/>
+        <entry key="column_name" type="xstring" value="Poland"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -569,7 +569,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_23">
-        <entry key="column_name" type="xstring" value="Romania"/>
+        <entry key="column_name" type="xstring" value="Portugal"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -594,7 +594,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_24">
-        <entry key="column_name" type="xstring" value="Slovak Republic"/>
+        <entry key="column_name" type="xstring" value="Romania"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -619,7 +619,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_25">
-        <entry key="column_name" type="xstring" value="Slovenia"/>
+        <entry key="column_name" type="xstring" value="Slovak Republic"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -644,7 +644,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_26">
-        <entry key="column_name" type="xstring" value="Spain"/>
+        <entry key="column_name" type="xstring" value="Slovenia"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -669,6 +669,31 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_27">
+        <entry key="column_name" type="xstring" value="Spain"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+                <config key="org.knime.core.data.def.IntCell">
+                    <entry key="IntCell" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_28">
         <entry key="column_name" type="xstring" value="Sweden"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>

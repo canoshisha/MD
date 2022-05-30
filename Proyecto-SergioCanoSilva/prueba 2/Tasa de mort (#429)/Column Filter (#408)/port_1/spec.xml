@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="56"/>
+    <entry key="number_columns" type="xint" value="58"/>
     <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="Mean(Argentina)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="87481.46874999999"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="Mean(Austria)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -27,7 +52,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_1">
+    <config key="column_spec_2">
         <entry key="column_name" type="xstring" value="Mean(Belgium)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -52,7 +77,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_2">
+    <config key="column_spec_3">
         <entry key="column_name" type="xstring" value="Mean(Bulgaria)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -77,7 +102,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_3">
+    <config key="column_spec_4">
         <entry key="column_name" type="xstring" value="Mean(Croatia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -102,7 +127,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_4">
+    <config key="column_spec_5">
         <entry key="column_name" type="xstring" value="Mean(Cyprus)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -127,7 +152,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_5">
+    <config key="column_spec_6">
         <entry key="column_name" type="xstring" value="Mean(Czech Republic)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -152,7 +177,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_6">
+    <config key="column_spec_7">
         <entry key="column_name" type="xstring" value="Mean(Denmark)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -177,7 +202,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_7">
+    <config key="column_spec_8">
         <entry key="column_name" type="xstring" value="Mean(EU-27)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -195,14 +220,14 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="703047.1874999998"/>
+                    <entry key="DoubleCell" type="xdouble" value="773849.1875"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_8">
+    <config key="column_spec_9">
         <entry key="column_name" type="xstring" value="Mean(Estonia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -227,7 +252,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_9">
+    <config key="column_spec_10">
         <entry key="column_name" type="xstring" value="Mean(Finland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -252,7 +277,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_10">
+    <config key="column_spec_11">
         <entry key="column_name" type="xstring" value="Mean(France)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -277,7 +302,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_11">
+    <config key="column_spec_12">
         <entry key="column_name" type="xstring" value="Mean(Germany)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -302,7 +327,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_12">
+    <config key="column_spec_13">
         <entry key="column_name" type="xstring" value="Mean(Greece)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -327,7 +352,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_13">
+    <config key="column_spec_14">
         <entry key="column_name" type="xstring" value="Mean(Hungary)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -352,7 +377,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_14">
+    <config key="column_spec_15">
         <entry key="column_name" type="xstring" value="Mean(Ireland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -377,7 +402,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_15">
+    <config key="column_spec_16">
         <entry key="column_name" type="xstring" value="Mean(Italy)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -402,7 +427,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_16">
+    <config key="column_spec_17">
         <entry key="column_name" type="xstring" value="Mean(Latvia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -427,7 +452,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_17">
+    <config key="column_spec_18">
         <entry key="column_name" type="xstring" value="Mean(Lithuania)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -452,7 +477,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_18">
+    <config key="column_spec_19">
         <entry key="column_name" type="xstring" value="Mean(Luxembourg)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -477,7 +502,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_19">
+    <config key="column_spec_20">
         <entry key="column_name" type="xstring" value="Mean(Malta)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -502,7 +527,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_20">
+    <config key="column_spec_21">
         <entry key="column_name" type="xstring" value="Mean(Netherlands)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -527,7 +552,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_21">
+    <config key="column_spec_22">
         <entry key="column_name" type="xstring" value="Mean(Poland)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -552,7 +577,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_22">
+    <config key="column_spec_23">
         <entry key="column_name" type="xstring" value="Mean(Portugal)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -577,7 +602,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_23">
+    <config key="column_spec_24">
         <entry key="column_name" type="xstring" value="Mean(Romania)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -602,7 +627,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_24">
+    <config key="column_spec_25">
         <entry key="column_name" type="xstring" value="Mean(Slovak Republic)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -627,7 +652,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_25">
+    <config key="column_spec_26">
         <entry key="column_name" type="xstring" value="Mean(Slovenia)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -652,7 +677,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_26">
+    <config key="column_spec_27">
         <entry key="column_name" type="xstring" value="Mean(Spain)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -677,7 +702,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_27">
+    <config key="column_spec_28">
         <entry key="column_name" type="xstring" value="Mean(Sweden)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -702,7 +727,32 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_28">
+    <config key="column_spec_29">
+        <entry key="column_name" type="xstring" value="Mean(Argentina) (#1)"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="0.0"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                <config key="org.knime.core.data.def.DoubleCell">
+                    <entry key="DoubleCell" type="xdouble" value="539.40625"/>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_30">
         <entry key="column_name" type="xstring" value="Mean(Austria) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -727,7 +777,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_29">
+    <config key="column_spec_31">
         <entry key="column_name" type="xstring" value="Mean(Belgium) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -752,7 +802,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_30">
+    <config key="column_spec_32">
         <entry key="column_name" type="xstring" value="Mean(Bulgaria) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -777,7 +827,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_31">
+    <config key="column_spec_33">
         <entry key="column_name" type="xstring" value="Mean(Croatia) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -802,7 +852,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_32">
+    <config key="column_spec_34">
         <entry key="column_name" type="xstring" value="Mean(Cyprus) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -827,7 +877,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_33">
+    <config key="column_spec_35">
         <entry key="column_name" type="xstring" value="Mean(Czech Republic) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -852,7 +902,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_34">
+    <config key="column_spec_36">
         <entry key="column_name" type="xstring" value="Mean(Denmark) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -877,7 +927,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_35">
+    <config key="column_spec_37">
         <entry key="column_name" type="xstring" value="Mean(EU-27) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -895,14 +945,14 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="2975.67741935484"/>
+                    <entry key="DoubleCell" type="xdouble" value="3155.225806451613"/>
                 </config>
             </config>
         </config>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_36">
+    <config key="column_spec_38">
         <entry key="column_name" type="xstring" value="Mean(Estonia) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -927,7 +977,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_37">
+    <config key="column_spec_39">
         <entry key="column_name" type="xstring" value="Mean(Finland) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -952,7 +1002,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_38">
+    <config key="column_spec_40">
         <entry key="column_name" type="xstring" value="Mean(France) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -977,7 +1027,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_39">
+    <config key="column_spec_41">
         <entry key="column_name" type="xstring" value="Mean(Germany) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1002,7 +1052,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_40">
+    <config key="column_spec_42">
         <entry key="column_name" type="xstring" value="Mean(Greece) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1027,7 +1077,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_41">
+    <config key="column_spec_43">
         <entry key="column_name" type="xstring" value="Mean(Hungary) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1052,7 +1102,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_42">
+    <config key="column_spec_44">
         <entry key="column_name" type="xstring" value="Mean(Ireland) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1077,7 +1127,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_43">
+    <config key="column_spec_45">
         <entry key="column_name" type="xstring" value="Mean(Italy) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1102,7 +1152,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_44">
+    <config key="column_spec_46">
         <entry key="column_name" type="xstring" value="Mean(Latvia) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1127,7 +1177,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_45">
+    <config key="column_spec_47">
         <entry key="column_name" type="xstring" value="Mean(Lithuania) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1152,7 +1202,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_46">
+    <config key="column_spec_48">
         <entry key="column_name" type="xstring" value="Mean(Luxembourg) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1177,7 +1227,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_47">
+    <config key="column_spec_49">
         <entry key="column_name" type="xstring" value="Mean(Malta) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1202,7 +1252,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_48">
+    <config key="column_spec_50">
         <entry key="column_name" type="xstring" value="Mean(Netherlands) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1227,7 +1277,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_49">
+    <config key="column_spec_51">
         <entry key="column_name" type="xstring" value="Mean(Poland) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1252,7 +1302,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_50">
+    <config key="column_spec_52">
         <entry key="column_name" type="xstring" value="Mean(Portugal) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1277,7 +1327,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_51">
+    <config key="column_spec_53">
         <entry key="column_name" type="xstring" value="Mean(Romania) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1302,7 +1352,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_52">
+    <config key="column_spec_54">
         <entry key="column_name" type="xstring" value="Mean(Slovak Republic) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1327,7 +1377,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_53">
+    <config key="column_spec_55">
         <entry key="column_name" type="xstring" value="Mean(Slovenia) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1352,7 +1402,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_54">
+    <config key="column_spec_56">
         <entry key="column_name" type="xstring" value="Mean(Spain) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -1377,7 +1427,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_55">
+    <config key="column_spec_57">
         <entry key="column_name" type="xstring" value="Mean(Sweden) (#1)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>

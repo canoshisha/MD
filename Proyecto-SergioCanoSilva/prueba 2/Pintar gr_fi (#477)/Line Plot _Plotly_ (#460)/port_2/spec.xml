@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="5"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="Mean(Sweden) (confirmados)"/>
+        <entry key="column_name" type="xstring" value="Mean(EU-27) (confirmados)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -14,7 +14,7 @@
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1.0752318199803875E-6"/>
+                    <entry key="DoubleCell" type="xdouble" value="5.249730910908271E-7"/>
                 </config>
             </config>
             <config key="upper_bound">
@@ -28,7 +28,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Mean(Sweden) (tasa mortalidad)"/>
+        <entry key="column_name" type="xstring" value="Mean(EU-27) (tasa mortalidad)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -45,7 +45,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.1454954954954956"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.1418459739055033"/>
                 </config>
             </config>
         </config>
@@ -53,7 +53,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="Mean(Sweden) (vacunados)"/>
+        <entry key="column_name" type="xstring" value="Mean(EU-27) (vacunados)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

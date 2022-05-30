@@ -23,16 +23,16 @@
         <entry key="useSpecifiedStartTime" type="xboolean" value="true"/>
         <entry key="timeWindowUnit" type="xstring" value="month(s)"/>
         <entry key="timeStepUnit" type="xstring" value="day(s)"/>
-        <config key="start_Internals">
-            <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="start" type="xstring" value="2020-01-01"/>
         <config key="selectedTimeColumn_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="selectedTimeColumn" type="xstring" value="Date&amp;Time"/>
+        <config key="start_Internals">
+            <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="start" type="xstring" value="2020-01-01"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Inicio del nodo%%00013%%00010para la media"/>

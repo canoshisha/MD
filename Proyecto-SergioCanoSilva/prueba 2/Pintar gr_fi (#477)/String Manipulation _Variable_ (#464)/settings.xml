@@ -6,7 +6,7 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="nombre"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="(Sweden) "/>
+            <entry key="value" type="xstring" value="(EU-27) "/>
         </config>
     </config>
     <config key="internal_node_subsettings">

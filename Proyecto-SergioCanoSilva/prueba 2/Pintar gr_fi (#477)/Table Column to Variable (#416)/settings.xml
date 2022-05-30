@@ -6,19 +6,19 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row0"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Mean(Sweden) (confirmados)"/>
+            <entry key="value" type="xstring" value="Mean(EU-27) (confirmados)"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row1"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Mean(Sweden) (tasa mortalidad)"/>
+            <entry key="value" type="xstring" value="Mean(EU-27) (tasa mortalidad)"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="Row2"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="Mean(Sweden) (vacunados)"/>
+            <entry key="value" type="xstring" value="Mean(EU-27) (vacunados)"/>
         </config>
     </config>
     <config key="internal_node_subsettings">

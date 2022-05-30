@@ -920,7 +920,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="0.10646426312460466"/>
+                    <entry key="DoubleCell" type="xdouble" value="0.1369632003976142"/>
                 </config>
             </config>
         </config>
@@ -3091,19 +3091,19 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Mean(Sweden) (confirmados)"/>
+                        <entry key="StringCell" type="xstring" value="Mean(EU-27) (confirmados)"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Mean(Sweden) (tasa mortalidad)"/>
+                        <entry key="StringCell" type="xstring" value="Mean(EU-27) (tasa mortalidad)"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Mean(Sweden) (vacunados)"/>
+                        <entry key="StringCell" type="xstring" value="Mean(EU-27) (vacunados)"/>
                     </config>
                 </config>
             </config>

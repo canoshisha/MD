@@ -10,9 +10,9 @@
         <entry key="class_1" type="xstring" value="[Ljava.lang.String;"/>
         <config key="value_1">
             <entry key="array-size" type="xint" value="3"/>
-            <entry key="0" type="xstring" value="Mean(Sweden) (confirmados)"/>
-            <entry key="1" type="xstring" value="Mean(Sweden) (tasa mortalidad)"/>
-            <entry key="2" type="xstring" value="Mean(Sweden) (vacunados)"/>
+            <entry key="0" type="xstring" value="Mean(EU-27) (confirmados)"/>
+            <entry key="1" type="xstring" value="Mean(EU-27) (tasa mortalidad)"/>
+            <entry key="2" type="xstring" value="Mean(EU-27) (vacunados)"/>
         </config>
         <entry key="key_2" type="xstring" value="showLegend"/>
         <entry key="class_2" type="xstring" value="java.lang.Boolean"/>
@@ -25,7 +25,7 @@
         <entry key="value_4" type="xboolean" value="false"/>
         <entry key="key_5" type="xstring" value="title"/>
         <entry key="class_5" type="xstring" value="java.lang.String"/>
-        <entry key="value_5" type="xstring" value="Sweden "/>
+        <entry key="value_5" type="xstring" value="EU-27 "/>
         <entry key="key_6" type="xstring" value="yAxisLabel"/>
         <entry key="class_6" type="xstring" value="java.lang.String"/>
         <entry key="value_6" type="xstring" value="DETAILS"/>

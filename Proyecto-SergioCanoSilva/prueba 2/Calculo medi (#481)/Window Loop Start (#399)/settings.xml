@@ -23,16 +23,16 @@
         <entry key="useSpecifiedStartTime" type="xboolean" value="true"/>
         <entry key="timeWindowUnit" type="xstring" value="month(s)"/>
         <entry key="timeStepUnit" type="xstring" value="day(s)"/>
-        <config key="start_Internals">
-            <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="start" type="xstring" value="2020-01-01"/>
         <config key="selectedTimeColumn_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="selectedTimeColumn" type="xstring" value="Date&amp;Time"/>
+        <config key="start_Internals">
+            <entry key="SettingsModelID" type="xstring" value="settingsmodel.date&amp;time"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="start" type="xstring" value="2020-01-01"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Inicio del nodo%%00013%%00010para la media"/>
@@ -69,12 +69,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 25, Cols: 29"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 25, Cols: 30"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7fef6655-d1bc-461b-8a8d-5ac18e955dd7"/>
+        <entry key="file_store_id" type="xstring" value="5e8ec49f-eb63-4050-afba-813f0d4e24ce"/>
     </config>
 </config>
